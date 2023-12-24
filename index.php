@@ -1,3 +1,4 @@
+<?php $i = require_once('info.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,10 +28,14 @@
 
 						<ul class="social-list list-inline mx-auto">
 							<li class="list-inline-item me-0 me-md-1 me-lg-2">
-								<a href="https://github.com/akrez"><i class="bi bi-github"></i></a>
+								<a href="https://github.com/akrez">
+									<i class="bi bi-github"></i>
+								</a>
 							</li>
 							<li class="list-inline-item me-0 me-md-1 me-lg-2">
-								<a href="https://www.linkedin.com/in/ali-akbar-rezaei-534b2528b/"><i class="bi bi-linkedin"></i></a>
+								<a href="https://www.linkedin.com/in/ali-akbar-rezaei-534b2528b/">
+									<i class="bi bi-linkedin"></i>
+								</a>
 							</li>
 						</ul><!--//social-list-->
 
@@ -47,14 +52,18 @@
 							<div class="resume-role-title text-uppercase">PHP Backend Developer</div>
 							<div class="resume-contact mt-4">
 								<ul class="resume-contact-list list-unstyled list-inline mb-0 justify-content-between">
-									<li class="list-inline-item me-md-3 me-lg-5"><i
-											class="resume-contact-icon bi bi-telephone-inbound me-2"></i> +123-4567890
+									<li class="list-inline-item me-md-3 me-lg-5">
+										<i class="resume-contact-icon bi bi-telephone-inbound me-2"></i>
+										<a href="tel:<?= $i['tel'] ?>"><?= $i['tel'] ?></a>
 									</li>
-									<li class="list-inline-item me-md-3 me-lg-5"><i
-											class="resume-contact-icon bi bi-envelope me-2"></i> hello@yourwebsite.com
+									<li class="list-inline-item me-md-3 me-lg-5">
+										<i class="resume-contact-icon bi bi-envelope me-2"></i>
+										<a href="mailto:<?= $i['mailto'] ?>"><?= $i['mailto'] ?></a>
 									</li>
-									<li class="list-inline-item me-lg-5"><i
-											class="resume-contact-icon bi bi-globe me-2"></i> www.yourwebsite.com</li>
+									<li class="list-inline-item me-lg-5">
+										<i class="resume-contact-icon bi bi-globe me-2"></i>
+										<a href="<?= $i['href'] ?>"><?= $i['href'] ?></a>
+									</li>
 								</ul>
 							</div><!--//resume-contact-->
 						</div><!--//profile-holder-->
@@ -64,20 +73,19 @@
 						<div class="row">
 							<div class="col-main col-12 col-lg-8 pe-lg-4">
 								<section class="resume-summary-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-2 py-lg-3"><i
-											class="resume-section-heading-icon bi bi-person me-2"></i>About Me</h3>
+									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-2 py-lg-3">
+										<i class="resume-section-heading-icon bi bi-person me-2"></i>
+										About Me
+									</h3>
 									<div class="resume-summary-desc">
-										Summarise your career profile here lorem ipsum dolor sit amet, consectetuer
-										adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis
-										natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+										5 years of experience as PHP Developer in analysis, design, development and management of web using JavaScript, MySQL, JQuery, PHP
 									</div>
 								</section><!--//resume-section-->
 
 								<hr>
 
 								<section class="resume-experience-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-											class="resume-section-heading-icon bi bi-briefcase me-2"></i>Work Experience
+									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-briefcase me-2"></i>Work Experience
 									</h3>
 									<div class="resume-timeline position-relative">
 										<article class="resume-timeline-item position-relative pb-5">
@@ -172,40 +180,31 @@
 							<div class="col-12 col-lg-4 ps-lg-4">
 
 								<section class="resume-skills-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-											class="resume-section-heading-icon bi bi-gear me-2"></i>Tech Stack</h3>
+									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-gear me-2"></i>Tech Stack</h3>
 
 									<ul class="list-unstyled">
 										<li class="mb-2">
 											<div class="resume-skill-name">JavaScript</div>
-											<div class="progress resume-progress" role="progressbar"
-												aria-label="Basic example" aria-valuenow="98" aria-valuemin="0"
-												aria-valuemax="100">
+											<div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
 												<div class="progress-bar resume-progress-bar" style="width: 98%"></div>
 											</div>
 										</li>
 										<li class="mb-2">
 											<div class="resume-skill-name">ReactJS</div>
-											<div class="progress resume-progress" role="progressbar"
-												aria-label="Basic example" aria-valuenow="95" aria-valuemin="0"
-												aria-valuemax="100">
+											<div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
 												<div class="progress-bar resume-progress-bar" style="width: 95%"></div>
 											</div>
 
 										</li>
 										<li class="mb-2">
 											<div class="resume-skill-name">Python</div>
-											<div class="progress resume-progress" role="progressbar"
-												aria-label="Basic example" aria-valuenow="92" aria-valuemin="0"
-												aria-valuemax="100">
+											<div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
 												<div class="progress-bar resume-progress-bar" style="width: 92%"></div>
 											</div>
 										</li>
 										<li class="mb-2">
 											<div class="resume-skill-name">MongoDB</div>
-											<div class="progress resume-progress" role="progressbar"
-												aria-label="Basic example" aria-valuenow="86" aria-valuemin="0"
-												aria-valuemax="100">
+											<div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
 												<div class="progress-bar resume-progress-bar" style="width: 86%"></div>
 											</div>
 										</li>
@@ -217,17 +216,14 @@
 								<hr>
 
 								<section class="resume-skills-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-											class="resume-section-heading-icon bi bi-person-gear me-2"></i>Soft Skills
+									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-person-gear me-2"></i>Soft Skills
 									</h3>
 									<ul class="list-inline">
-										<li class="list-inline-item"><span
-												class="badge resume-skill-badge">Leadership</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Leadership</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">Project
 												Management</span></li>
 
-										<li class="list-inline-item"><span
-												class="badge resume-skill-badge">DevOps</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">DevOps</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">Public
 												Speaking</span></li>
 
@@ -238,19 +234,16 @@
 								<hr>
 
 								<section class="resume-projects-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-											class="resume-section-heading-icon bi bi-code-slash me-2"></i>Projects</h3>
+									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-code-slash me-2"></i>Projects</h3>
 									<div class="item">
-										<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i><a
-												href="#">Project lorem Ipsum</a></h4>
+										<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i><a href="#">Project lorem Ipsum</a></h4>
 										<div class="item-desc">
 											Project desc goes here aenean ut libero sit amet ante fermentum scelerisque
 											non a leo.
 										</div>
 									</div><!--//item-->
 									<div class="item">
-										<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i><a
-												href="#">Volutpat App</a></h4>
+										<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i><a href="#">Volutpat App</a></h4>
 										<div class="item-desc">
 											You can link to your project Github page.
 										</div>
@@ -262,8 +255,7 @@
 								<hr>
 
 								<section class="resume-educate-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-											class="resume-section-heading-icon bi bi-book me-2"></i>Education</h3>
+									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-book me-2"></i>Education</h3>
 									<ul class="list-unstyled">
 										<li class="mb-2">
 											<div class="resume-degree font-weight-bold">MSc in Computer Science</div>
@@ -281,8 +273,7 @@
 								<hr>
 
 								<section class="resume-lang-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-											class="resume-section-heading-icon bi bi-translate me-2"></i>Languages</h3>
+									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-translate me-2"></i>Languages</h3>
 									<ul class="list-unstyled resume-lang-list">
 										<li class="mb-2">
 											<div class="resume-lang-name">English</div>
@@ -333,9 +324,7 @@
 
 	<footer class="footer text-center py-4">
 		<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-		<small class="copyright">Designed with <span class="sr-only">love</span><i class="bi bi-heart-fill"
-				style="color:#fe655c"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com"
-				target="_blank">Xiaoying Riley</a> for developers</small>
+		<small class="copyright">Designed with <span class="sr-only">love</span><i class="bi bi-heart-fill" style="color:#fe655c"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
 	</footer>
 
 </body>
