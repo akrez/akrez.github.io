@@ -67,16 +67,16 @@
 									</h3>
 									<div class="resume-timeline position-relative">
 
-										<article class="resume-timeline-item position-relative mb-5">
+										<article class="resume-timeline-item position-relative mb-4">
 											<div class="resume-timeline-item-header mb-2">
 												<div class="resume-position-meta d-flex justify-content-between mb-1">
 													<div class="resume-position-time">January 2021 – Present</div>
-													<a class="resume-company-name" href="https://bpm.pspexpress.com/login" target="_blank">
+												</div>
+												<h3 class="resume-position-title d-flex justify-content-between mb-1">
+													FullStack Developer
+													<a class="resume-company-name small" href="https://bpm.pspexpress.com/login" target="_blank">
 														Favin Tejarat
 													</a>
-												</div>
-												<h3 class="resume-position-title mb-1">
-													FullStack Developer
 												</h3>
 											</div><!--//resume-timeline-item-header-->
 											<div class="resume-timeline-item-desc">
@@ -91,15 +91,17 @@
 											</div><!--//resume-timeline-item-desc-->
 										</article><!--//resume-timeline-item-->
 
-										<article class="resume-timeline-item position-relative mb-5">
+										<article class="resume-timeline-item position-relative mb-4">
 											<div class="resume-timeline-item-header mb-2">
 												<div class="resume-position-meta d-flex justify-content-between mb-1">
 													<div class="resume-position-time">January 2018 – February 2019</div>
-													<a class="resume-company-name" href="https://setarehvanak.com" target="_blank">
+												</div>
+												<h3 class="resume-position-title d-flex justify-content-between mb-1">
+													FullStack Developer
+													<a class="resume-company-name small" href="https://setarehvanak.com" target="_blank">
 														Setareh Vanak Travel Agency
 													</a>
-												</div>
-												<h3 class="resume-position-title mb-1">FullStack Developer</h3>
+												</h3>
 											</div><!--//resume-timeline-item-header-->
 											<div class="resume-timeline-item-desc">
 												<ul class="resume-timeline-list">
@@ -123,13 +125,17 @@
 											</div><!--//resume-timeline-item-desc-->
 										</article><!--//resume-timeline-item-->
 
-										<article class="resume-timeline-item position-relative mb-5">
+										<article class="resume-timeline-item position-relative mb-4">
 											<div class="resume-timeline-item-header mb-2">
 												<div class="resume-position-meta d-flex justify-content-between mb-1">
 													<div class="resume-position-time">October 2016 – June 2017</div>
-													<div class="resume-company-name">Travia Online Reservation System</div>
 												</div>
-												<h3 class="resume-position-title mb-1">Backend Developer</h3>
+												<h3 class="resume-position-title d-flex justify-content-between mb-1">
+													Backend Developer
+													<div class="resume-company-name small">
+														Travia Online Reservation System
+													</div>
+												</h3>
 											</div><!--//resume-timeline-item-header-->
 											<div class="resume-timeline-item-desc">
 												<ul class="resume-timeline-list">
@@ -143,13 +149,17 @@
 											</div><!--//resume-timeline-item-desc-->
 										</article><!--//resume-timeline-item-->
 
-										<article class="resume-timeline-item position-relative mb-5">
+										<article class="resume-timeline-item position-relative mb-4">
 											<div class="resume-timeline-item-header mb-2">
 												<div class="resume-position-meta d-flex justify-content-between mb-1">
 													<div class="resume-position-time">February 2016 – September 2016</div>
-													<div class="resume-company-name">Farzan Clinical Research Organization</div>
 												</div>
-												<h3 class="resume-position-title mb-1">Junior Backend Developer</h3>
+												<h3 class="resume-position-title d-flex justify-content-between mb-1">
+													Junior Backend Developer
+													<div class="resume-company-name small">
+														Farzan Clinical Research Organization
+													</div>
+												</h3>
 											</div><!--//resume-timeline-item-header-->
 											<div class="resume-timeline-item-desc">
 												<ul class="resume-timeline-list">
