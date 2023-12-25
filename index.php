@@ -60,20 +60,24 @@
 									</div>
 								</section><!--//resume-section-->
 
-								<hr>
-
 								<section class="resume-experience-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-briefcase me-2"></i>Work Experience
+									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
+										<i class="resume-section-heading-icon bi bi-briefcase me-2"></i>
+										Work Experience
 									</h3>
 									<div class="resume-timeline position-relative">
 
-										<article class="resume-timeline-item position-relative">
+										<article class="resume-timeline-item position-relative mb-5">
 											<div class="resume-timeline-item-header mb-2">
 												<div class="resume-position-meta d-flex justify-content-between mb-1">
 													<div class="resume-position-time">January 2021 – Present</div>
-													<div class="resume-company-name">Favin Tejarat</div>
+													<a class="resume-company-name" href="https://bpm.pspexpress.com/login" target="_blank">
+														Favin Tejarat
+													</a>
 												</div>
-												<h3 class="resume-position-title mb-1">FullStack Developer</h3>
+												<h3 class="resume-position-title mb-1">
+													FullStack Developer
+												</h3>
 											</div><!--//resume-timeline-item-header-->
 											<div class="resume-timeline-item-desc">
 												<ul class="resume-timeline-list">
@@ -87,11 +91,13 @@
 											</div><!--//resume-timeline-item-desc-->
 										</article><!--//resume-timeline-item-->
 
-										<article class="resume-timeline-item position-relative">
+										<article class="resume-timeline-item position-relative mb-5">
 											<div class="resume-timeline-item-header mb-2">
 												<div class="resume-position-meta d-flex justify-content-between mb-1">
 													<div class="resume-position-time">January 2018 – February 2019</div>
-													<div class="resume-company-name">Setareh Vanak Travel Agency</div>
+													<a class="resume-company-name" href="https://setarehvanak.com" target="_blank">
+														Setareh Vanak Travel Agency
+													</a>
 												</div>
 												<h3 class="resume-position-title mb-1">FullStack Developer</h3>
 											</div><!--//resume-timeline-item-header-->
@@ -117,7 +123,7 @@
 											</div><!--//resume-timeline-item-desc-->
 										</article><!--//resume-timeline-item-->
 
-										<article class="resume-timeline-item position-relative">
+										<article class="resume-timeline-item position-relative mb-5">
 											<div class="resume-timeline-item-header mb-2">
 												<div class="resume-position-meta d-flex justify-content-between mb-1">
 													<div class="resume-position-time">October 2016 – June 2017</div>
@@ -137,7 +143,7 @@
 											</div><!--//resume-timeline-item-desc-->
 										</article><!--//resume-timeline-item-->
 
-										<article class="resume-timeline-item position-relative">
+										<article class="resume-timeline-item position-relative mb-5">
 											<div class="resume-timeline-item-header mb-2">
 												<div class="resume-position-meta d-flex justify-content-between mb-1">
 													<div class="resume-position-time">February 2016 – September 2016</div>
@@ -159,29 +165,70 @@
 
 									</div><!--//resume-timeline-->
 								</section><!--//resume-experience-section-->
+
+								<section class="resume-experience-section resume-section">
+									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
+										<i class="resume-section-heading-icon bi bi-code-slash me-2"></i>
+										Projects
+									</h3>
+									<div class="resume-timeline position-relative">
+										<article class="resume-timeline-item position-relative">
+											<div class="resume-timeline-item-header mb-2">
+												<h3 class="resume-position-title mb-1">Boursia</h3>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<ul class="resume-timeline-list">
+													<li>
+														Lightweight project for analyzing Tehran stock exchange using Laravel
+													</li>
+													<li>
+														Getting data from tsetmc.com using API in csv format, storing in the database and retrieving using Eloquent
+													</li>
+													<li>
+														Using Blade template engine to show user’s dynamic customized charts by Highcharts
+													</li>
+												</ul>
+											</div><!--//resume-timeline-item-desc-->
+										</article><!--//resume-timeline-item-->
+									</div>
+									<div class="resume-timeline position-relative">
+										<article class="resume-timeline-item position-relative">
+											<div class="resume-timeline-item-header mb-2">
+												<h3 class="resume-position-title mb-1">Akrez eCommerce Platform</h3>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<ul class="resume-timeline-list">
+													<li>
+														Dynamic eCommerce Platform that empowers small and medium businesses to build their own shopping website in a separate domain
+													</li>
+													<li>
+														Used Yii2 framework
+													</li>
+													<li>
+														Built user frontend by bootstrap4, fully by json API
+													</li>
+													<li>
+														Uses different visual tools such as hart.js to show visit stats
+													</li>
+													<li>
+														Customers may have different profiles for each shop
+													</li>
+													<li>
+														Website builder can utilize various filters for each category of her/his shopping site
+													</li>
+													<li>
+														Used full ajax datagrid to show, create and edit items
+													</li>
+													<li>
+														Sends data to the Telegram channel of the website owner just by one click using Telegram API automatically
+													</li>
+												</ul>
+											</div><!--//resume-timeline-item-desc-->
+										</article><!--//resume-timeline-item-->
+									</div><!--//resume-timeline-->
+								</section><!--//resume-experience-section-->
 							</div><!--//col-8-->
 							<div class="col-12 col-lg-4 ps-lg-4">
-
-								<section class="resume-projects-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-code-slash me-2"></i>Projects</h3>
-									<div class="item">
-										<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i><a href="#">Project lorem Ipsum</a></h4>
-										<div class="item-desc">
-											Project desc goes here aenean ut libero sit amet ante fermentum scelerisque
-											non a leo.
-										</div>
-									</div><!--//item-->
-									<div class="item">
-										<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i><a href="#">Volutpat App</a></h4>
-										<div class="item-desc">
-											You can link to your project Github page.
-										</div>
-									</div><!--//item-->
-
-
-								</section>
-
-								<hr>
 
 								<section class="resume-educate-section resume-section">
 									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
@@ -193,20 +240,6 @@
 											<div class="resume-degree font-weight-bold">Bachelor in Software Engineer</div>
 											<div class="resume-degree-org">Qom University</div>
 											<div class="resume-degree-time">2011 - 2015</div>
-										</li>
-									</ul>
-								</section><!--//resume-section-->
-
-								<hr>
-
-								<section class="resume-skills-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
-										<i class="resume-section-heading-icon bi bi-person-gear me-2"></i>
-										Soft Skills
-									</h3>
-									<ul class="list-inline">
-										<li class="list-inline-item">
-											<span class="badge resume-skill-badge">DevOps</span>
 										</li>
 									</ul>
 								</section><!--//resume-section-->
