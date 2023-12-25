@@ -78,7 +78,7 @@
 											<div class="resume-timeline-item-desc">
 												<ul class="resume-timeline-list">
 													<li>
-														Developing warehouse management system using FuelPhp framework
+														Developing warehouse management system using FuelPHP framework
 													</li>
 													<li>
 														Working with Git (Gitlab) and Gitflow strategy
@@ -162,24 +162,6 @@
 							</div><!--//col-8-->
 							<div class="col-12 col-lg-4 ps-lg-4">
 
-								<section class="resume-skills-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-person-gear me-2"></i>Soft Skills
-									</h3>
-									<ul class="list-inline">
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Leadership</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Project
-												Management</span></li>
-
-										<li class="list-inline-item"><span class="badge resume-skill-badge">DevOps</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Public
-												Speaking</span></li>
-
-
-									</ul>
-								</section><!--//resume-section-->
-
-								<hr>
-
 								<section class="resume-projects-section resume-section">
 									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-code-slash me-2"></i>Projects</h3>
 									<div class="item">
@@ -211,6 +193,20 @@
 											<div class="resume-degree font-weight-bold">Bachelor in Software Engineer</div>
 											<div class="resume-degree-org">Qom University</div>
 											<div class="resume-degree-time">2011 - 2015</div>
+										</li>
+									</ul>
+								</section><!--//resume-section-->
+
+								<hr>
+
+								<section class="resume-skills-section resume-section">
+									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
+										<i class="resume-section-heading-icon bi bi-person-gear me-2"></i>
+										Soft Skills
+									</h3>
+									<ul class="list-inline">
+										<li class="list-inline-item">
+											<span class="badge resume-skill-badge">DevOps</span>
 										</li>
 									</ul>
 								</section><!--//resume-section-->
