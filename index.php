@@ -23,31 +23,9 @@
 
 		<div class="main-content-wrapper">
 			<div class="container-fluid">
-				<div class="top-bar text-center position-relative">
-					<div class="top-bar-inner">
-
-						<ul class="social-list list-inline mx-auto">
-							<li class="list-inline-item me-0 me-md-1 me-lg-2">
-								<a href="https://github.com/akrez">
-									<i class="bi bi-github"></i>
-								</a>
-							</li>
-							<li class="list-inline-item me-0 me-md-1 me-lg-2">
-								<a href="https://www.linkedin.com/in/ali-akbar-rezaei-534b2528b/">
-									<i class="bi bi-linkedin"></i>
-								</a>
-							</li>
-						</ul><!--//social-list-->
-
-					</div><!--//top-bar-inner-->
-
-				</div><!--//top-bar-->
-
-				<div class="resume-wrapper mx-auto rounded-2">
-					<div class="resume-header px-4 px-lg-5">
+				<div class="resume-wrapper mx-auto rounded-2 pt-0 m-4">
+					<div class="resume-header p-4 pb-0 p-lg-5 pb-lg-0">
 						<div class="resume-profile-holder text-center">
-							<img class="resume-profile-pic rounded-circle" src="assets/images/profile.svg" alt="image">
-
 							<h2 class="resume-name text-uppercase">AliAkbar Rezaei</h2>
 							<div class="resume-role-title text-uppercase">PHP Backend Developer</div>
 							<div class="resume-contact mt-4">
@@ -69,7 +47,7 @@
 						</div><!--//profile-holder-->
 					</div><!--//resume-header-->
 
-					<div class="resume-body p-4 p-lg-5">
+					<div class="resume-body p-4 pb-0 p-lg-5">
 						<div class="row">
 							<div class="col-main col-12 col-lg-8 pe-lg-4">
 								<section class="resume-summary-section resume-section">
@@ -78,7 +56,7 @@
 										About Me
 									</h3>
 									<div class="resume-summary-desc">
-										5 years of experience as PHP Developer in analysis, design, development and management of web using JavaScript, MySQL, JQuery, PHP
+										5 years of experience as PHP Developer in analysis, design, development and management of web using JavaScript, MySQL, PHP
 									</div>
 								</section><!--//resume-section-->
 
@@ -88,132 +66,101 @@
 									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-briefcase me-2"></i>Work Experience
 									</h3>
 									<div class="resume-timeline position-relative">
-										<article class="resume-timeline-item position-relative pb-5">
 
-											<div class="resume-timeline-item-header mb-2">
-
-												<div class="resume-position-meta d-flex justify-content-between mb-1">
-													<div class="resume-position-time">2023 - Present</div>
-													<div class="resume-company-name">Google</div>
-												</div>
-												<h3 class="resume-position-title mb-1">Tech Lead</h3>
-
-											</div><!--//resume-timeline-item-header-->
-											<div class="resume-timeline-item-desc">
-
-
-												<ul class="resume-timeline-list">
-													<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-														porta est diam, et blandit ipsum suscipit facilisis. Praesent
-														nec semper eros. Aliquam quis turpis sed metus mollis luctus
-														vitae rhoncus mi. </li>
-													<li>Vivamus accumsan purus at urna tincidunt convallis. Sed nisi
-														dolor, elementum eget tempus ac, blandit ac mi. Aliquam id
-														tellus ut arcu luctus accumsan in at odio. </li>
-
-													<li>Morbi condimentum, lorem in pharetra mollis, purus justo
-														sollicitudin dolor, tristique vulputate mi odio sit amet ante.
-													</li>
-													<li>Blanditiis praesentium voluptatum deleniti atque corrupti.</li>
-												</ul>
-
-											</div><!--//resume-timeline-item-desc-->
-
-										</article><!--//resume-timeline-item-->
-
-										<article class="resume-timeline-item position-relative pb-5">
-
-											<div class="resume-timeline-item-header mb-2">
-
-												<div class="resume-position-meta d-flex justify-content-between mb-1">
-													<div class="resume-position-time">2019 - 2023</div>
-													<div class="resume-company-name">Meta</div>
-												</div>
-												<h3 class="resume-position-title mb-1">Senior App Developer</h3>
-
-											</div><!--//resume-timeline-item-header-->
-											<div class="resume-timeline-item-desc">
-												<ul class="resume-timeline-list">
-
-													<li>Praesent nec semper eros. Aliquam quis turpis sed metus mollis
-														luctus vitae rhoncus mi. At vero eos et accusamus et iusto odio
-														dignissimos.</li>
-													<li>Proin tempus eu arcu in semper. Quisque gravida, sem ut vehicula
-														ultrices, diam est viverra odio, eget tristique tortor tortor
-														sed neque.</li>
-													<li>Suspendisse quis pharetra elit. Curabitur vitae cursus lacus, et
-														bibendum magna. Donec in orci eu augue posuere mattis ut in
-														turpis.</li>
-												</ul>
-
-											</div><!--//resume-timeline-item-desc-->
-
-										</article><!--//resume-timeline-item-->
 										<article class="resume-timeline-item position-relative">
-
 											<div class="resume-timeline-item-header mb-2">
-
 												<div class="resume-position-meta d-flex justify-content-between mb-1">
-													<div class="resume-position-time">2017 - 2019</div>
-													<div class="resume-company-name">Coinbase</div>
+													<div class="resume-position-time">January 2021 – Present</div>
+													<div class="resume-company-name">Favin Tejarat</div>
 												</div>
-												<h3 class="resume-position-title mb-1">App Developer</h3>
-
+												<h3 class="resume-position-title mb-1">FullStack Developer</h3>
 											</div><!--//resume-timeline-item-header-->
 											<div class="resume-timeline-item-desc">
 												<ul class="resume-timeline-list">
-
-													<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-													<li>Nulla velit dui, ultrices sit amet arcu eget, sodales lacinia
-														lorem.</li>
-													<li>Quisque semper nisi mauris, non ullamcorper nunc consectetur
-														eget. </li>
-
+													<li>
+														Developing warehouse management system using FuelPhp framework
+													</li>
+													<li>
+														Working with Git (Gitlab) and Gitflow strategy
+													</li>
 												</ul>
-
 											</div><!--//resume-timeline-item-desc-->
-
 										</article><!--//resume-timeline-item-->
+
+										<article class="resume-timeline-item position-relative">
+											<div class="resume-timeline-item-header mb-2">
+												<div class="resume-position-meta d-flex justify-content-between mb-1">
+													<div class="resume-position-time">January 2018 – February 2019</div>
+													<div class="resume-company-name">Setareh Vanak Travel Agency</div>
+												</div>
+												<h3 class="resume-position-title mb-1">FullStack Developer</h3>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<ul class="resume-timeline-list">
+													<li>
+														Built modular and maintainable applications using Symfony
+													</li>
+													<li>
+														Built GUI using Saman Insuranse XML SOAP API
+													</li>
+													<li>
+														Worked with international online hotel reservation providers
+													</li>
+													<li>
+														Implemented admin panel using Bootstrap 3
+													</li>
+													<li>
+														Used TWIG templating engine for rendering dynamic views
+
+													</li>
+												</ul>
+											</div><!--//resume-timeline-item-desc-->
+										</article><!--//resume-timeline-item-->
+
+										<article class="resume-timeline-item position-relative">
+											<div class="resume-timeline-item-header mb-2">
+												<div class="resume-position-meta d-flex justify-content-between mb-1">
+													<div class="resume-position-time">October 2016 – June 2017</div>
+													<div class="resume-company-name">Travia Online Reservation System</div>
+												</div>
+												<h3 class="resume-position-title mb-1">Backend Developer</h3>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<ul class="resume-timeline-list">
+													<li>
+														Worked primarily as a backend developer on the company's main system using Yii2 framework
+													</li>
+													<li>
+														Developed online flight reservation system using combination and merge some international online services such as Amadeus Ticketing Platform
+													</li>
+												</ul>
+											</div><!--//resume-timeline-item-desc-->
+										</article><!--//resume-timeline-item-->
+
+										<article class="resume-timeline-item position-relative">
+											<div class="resume-timeline-item-header mb-2">
+												<div class="resume-position-meta d-flex justify-content-between mb-1">
+													<div class="resume-position-time">February 2016 – September 2016</div>
+													<div class="resume-company-name">Farzan Clinical Research Organization</div>
+												</div>
+												<h3 class="resume-position-title mb-1">Junior Backend Developer</h3>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<ul class="resume-timeline-list">
+													<li>
+														Developed web backend user interfaces to new and existing databases using Codeignite PHP framework
+													</li>
+													<li>
+														Worked on hub module for implementing single sign-on service (SSO)
+													</li>
+												</ul>
+											</div><!--//resume-timeline-item-desc-->
+										</article><!--//resume-timeline-item-->
+
 									</div><!--//resume-timeline-->
 								</section><!--//resume-experience-section-->
 							</div><!--//col-8-->
 							<div class="col-12 col-lg-4 ps-lg-4">
-
-								<section class="resume-skills-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-gear me-2"></i>Tech Stack</h3>
-
-									<ul class="list-unstyled">
-										<li class="mb-2">
-											<div class="resume-skill-name">JavaScript</div>
-											<div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
-												<div class="progress-bar resume-progress-bar" style="width: 98%"></div>
-											</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-skill-name">ReactJS</div>
-											<div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-												<div class="progress-bar resume-progress-bar" style="width: 95%"></div>
-											</div>
-
-										</li>
-										<li class="mb-2">
-											<div class="resume-skill-name">Python</div>
-											<div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
-												<div class="progress-bar resume-progress-bar" style="width: 92%"></div>
-											</div>
-										</li>
-										<li class="mb-2">
-											<div class="resume-skill-name">MongoDB</div>
-											<div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
-												<div class="progress-bar resume-progress-bar" style="width: 86%"></div>
-											</div>
-										</li>
-
-									</ul>
-
-								</section><!--//resume-section-->
-
-								<hr>
 
 								<section class="resume-skills-section resume-section">
 									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-person-gear me-2"></i>Soft Skills
@@ -255,60 +202,18 @@
 								<hr>
 
 								<section class="resume-educate-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-book me-2"></i>Education</h3>
+									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
+										<i class="resume-section-heading-icon bi bi-book me-2"></i>
+										Education
+									</h3>
 									<ul class="list-unstyled">
 										<li class="mb-2">
-											<div class="resume-degree font-weight-bold">MSc in Computer Science</div>
-											<div class="resume-degree-org">Oxford University</div>
-											<div class="resume-degree-time">2016 - 2017</div>
-										</li>
-										<li>
-											<div class="resume-degree font-weight-bold">BSc Maths and Physics</div>
-											<div class="resume-degree-org">University of California, Berkeley</div>
-											<div class="resume-degree-time">2012 - 2016</div>
+											<div class="resume-degree font-weight-bold">Bachelor in Software Engineer</div>
+											<div class="resume-degree-org">Qom University</div>
+											<div class="resume-degree-time">2011 - 2015</div>
 										</li>
 									</ul>
 								</section><!--//resume-section-->
-
-								<hr>
-
-								<section class="resume-lang-section resume-section">
-									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-translate me-2"></i>Languages</h3>
-									<ul class="list-unstyled resume-lang-list">
-										<li class="mb-2">
-											<div class="resume-lang-name">English</div>
-											<div class="resume-level-indicator row gx-0 flex-nowrap">
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-half"></span></div>
-											</div><!--//resume-level-indicator-->
-										</li>
-										<li class="mb-2">
-											<div class="resume-lang-name">Spanish</div>
-											<div class="resume-level-indicator row gx-0 flex-nowrap">
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-full"></span></div>
-												<div class="col"><span class="item item-half"></span></div>
-												<div class="col"><span class="item"></span></div>
-											</div><!--//resume-level-indicator-->
-										</li>
-									</ul>
-								</section>
-
-
 
 							</div><!--//col-side-->
 						</div><!--//row-->
@@ -317,14 +222,5 @@
 			</div><!--//container-fluid-->
 		</div><!--//main-content-wrapper-->
 
-
-	</div><!--//row-->
-
 	</div><!--//container-->
-
-	<footer class="footer text-center py-4">
-		<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-		<small class="copyright">Designed with <span class="sr-only">love</span><i class="bi bi-heart-fill" style="color:#fe655c"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-	</footer>
-
 </body>
