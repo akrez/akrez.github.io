@@ -30,18 +30,12 @@
 							<div class="resume-role-title text-uppercase">PHP Backend Developer</div>
 							<div class="resume-contact mt-3">
 								<ul class="resume-contact-list list-unstyled list-inline mb-0 justify-content-between">
-									<li class="list-inline-item me-md-3 me-lg-5">
-										<i class="resume-contact-icon bi bi-telephone-inbound me-2"></i>
-										<a href="tel:<?= $i['tel'] ?>"><?= $i['tel'] ?></a>
-									</li>
-									<li class="list-inline-item me-md-3 me-lg-5">
-										<i class="resume-contact-icon bi bi-envelope me-2"></i>
-										<a href="mailto:<?= $i['mailto'] ?>"><?= $i['mailto'] ?></a>
-									</li>
-									<li class="list-inline-item me-lg-5">
-										<i class="resume-contact-icon bi bi-globe me-2"></i>
-										<a href="<?= $i['href'] ?>"><?= $i['href'] ?></a>
-									</li>
+									<?php foreach ($i['contacts'] as $contact) { ?>
+										<li class="list-inline-item mx-3">
+											<i class="resume-contact-icon me-2 <?= $contact['i'] ?>"></i>
+											<a href="<?= $contact['href'] ?>"><?= $contact['content'] ?></a>
+										</li>
+									<?php } ?>
 								</ul>
 							</div><!--//resume-contact-->
 						</div><!--//profile-holder-->
