@@ -1,4 +1,4 @@
-<?php $i = require_once('info.php'); ?>
+<?php require_once('boot.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,6 +24,7 @@
 		<div class="main-content-wrapper">
 			<div class="container-fluid">
 				<div class="resume-wrapper mx-auto rounded-2 pt-0 m-4">
+					<?= $table ?>
 					<div class="resume-header p-4 pb-0 p-lg-5 pb-lg-0">
 						<div class="resume-profile-holder text-center">
 							<h2 class="resume-name">AliAkbar Rezaei</h2>
