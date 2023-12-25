@@ -26,9 +26,9 @@
 				<div class="resume-wrapper mx-auto rounded-2 pt-0 m-4">
 					<div class="resume-header p-4 pb-0 p-lg-5 pb-lg-0">
 						<div class="resume-profile-holder text-center">
-							<h2 class="resume-name text-uppercase">AliAkbar Rezaei</h2>
+							<h2 class="resume-name">AliAkbar Rezaei</h2>
 							<div class="resume-role-title text-uppercase">PHP Backend Developer</div>
-							<div class="resume-contact mt-4">
+							<div class="resume-contact mt-3">
 								<ul class="resume-contact-list list-unstyled list-inline mb-0 justify-content-between">
 									<li class="list-inline-item me-md-3 me-lg-5">
 										<i class="resume-contact-icon bi bi-telephone-inbound me-2"></i>
@@ -47,7 +47,7 @@
 						</div><!--//profile-holder-->
 					</div><!--//resume-header-->
 
-					<div class="resume-body p-4 pb-0 p-lg-5">
+					<div class="resume-body p-5 pt-3">
 						<div class="row">
 							<div class="col-main col-12 col-lg-8 pe-lg-4">
 								<section class="resume-summary-section resume-section">
@@ -109,10 +109,10 @@
 														Built modular and maintainable applications using Symfony
 													</li>
 													<li>
-														Built GUI using Saman Insuranse XML SOAP API
+														Built GUI using Saman Insuranse XML SOAP
 													</li>
 													<li>
-														Worked with international online hotel reservation providers
+														Worked with international online hotel reservation providers json API
 													</li>
 													<li>
 														Implemented admin panel using Bootstrap 3
@@ -200,11 +200,14 @@
 												</ul>
 											</div><!--//resume-timeline-item-desc-->
 										</article><!--//resume-timeline-item-->
-									</div>
-									<div class="resume-timeline position-relative">
 										<article class="resume-timeline-item position-relative">
 											<div class="resume-timeline-item-header mb-2">
-												<h3 class="resume-position-title mb-1">Akrez eCommerce Platform</h3>
+												<h3 class="resume-position-title d-flex justify-content-between mb-1">
+													Akrez eCommerce Platform
+													<a class="resume-company-name small" href="https://akrez.ir/" target="_blank">
+														akrez.ir
+													</a>
+												</h3>
 											</div><!--//resume-timeline-item-header-->
 											<div class="resume-timeline-item-desc">
 												<ul class="resume-timeline-list">
@@ -218,7 +221,7 @@
 														Built user frontend by bootstrap4, fully by json API
 													</li>
 													<li>
-														Uses different visual tools such as hart.js to show visit stats
+														Uses different visual tools such as Chart.js to show visit stats
 													</li>
 													<li>
 														Customers may have different profiles for each shop
@@ -253,6 +256,36 @@
 										</li>
 									</ul>
 								</section><!--//resume-section-->
+
+								<section class="resume-skills-section resume-section">
+									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
+										<i class="resume-section-heading-icon bi bi-person-gear me-2"></i>
+										Skills
+									</h3>
+									<ul class="list-inline">
+										<li class="list-inline-item"><span class="badge resume-skill-badge">JavaScript</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">SQL</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">PHP</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Gitflow</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Symfony</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">SOAP</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Json</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Bootstrap</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Twig</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Yii2</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">JQuery</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Codeignite</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">SSO</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Laravel</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Blade</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Eloquent</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Csv</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Highcharts</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">ChartJs</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Ajax</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Select2</span></li>
+									</ul>
+								</section>
 
 							</div><!--//col-side-->
 						</div><!--//row-->
