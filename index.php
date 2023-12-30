@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/plugins/bootstrap-icons/bootstrap-icons.min.css">
 	<link rel="stylesheet" href="assets/css/shine.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 
@@ -44,7 +45,7 @@
 
 					<div class="resume-body p-5 pt-3">
 						<div class="row">
-							<div class="col-main col-12 col-lg-8 pe-lg-4">
+							<div class="col-main col-12 col-md-8 pe-lg-4">
 								<section class="resume-summary-section resume-section">
 									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-2 py-lg-3">
 										<i class="resume-section-heading-icon bi bi-person me-2"></i>
@@ -173,7 +174,7 @@
 											<div class="resume-timeline-item-desc">
 												<ul class="resume-timeline-list">
 													<li>
-														Developed web backend user interfaces to new and existing databases using Codeignite PHP framework
+														Developed web backend user interfaces to new and existing databases using Codeigniter PHP framework
 													</li>
 													<li>
 														Worked on hub module for implementing single sign-on service (SSO)
@@ -372,7 +373,7 @@
 									</div><!--//resume-timeline-->
 								</section><!--//resume-experience-section-->
 							</div><!--//col-8-->
-							<div class="col-12 col-lg-4 ps-lg-4">
+							<div class="col-12 col-md-4 ps-lg-4">
 
 								<section class="resume-educate-section resume-section">
 									<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
@@ -394,6 +395,8 @@
 										Skills
 									</h3>
 									<ul class="list-inline">
+										<li class="list-inline-item"><span class="badge resume-skill-badge">PSR-7</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Guzzle</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">JavaScript</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">SQL</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">PHP</span></li>
@@ -405,7 +408,7 @@
 										<li class="list-inline-item"><span class="badge resume-skill-badge">Twig</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">Yii2</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">JQuery</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Codeignite</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Codeigniter</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">SSO</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">Laravel</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">Blade</span></li>
@@ -415,6 +418,13 @@
 										<li class="list-inline-item"><span class="badge resume-skill-badge">ChartJs</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">Ajax</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">Select2</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">JWT</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">REST APIs</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Docker</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Swagger API</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Redis</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Telegram bot</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">PHP GD</span></li>
 									</ul>
 								</section>
 
