@@ -193,41 +193,6 @@
 									<div class="resume-timeline position-relative">
 										<article class="resume-timeline-item position-relative mb-5">
 											<div class="resume-timeline-item-header mb-2">
-												<h3 class="resume-position-title mb-1">Boursia</h3>
-											</div><!--//resume-timeline-item-header-->
-											<div class="resume-timeline-item-desc">
-												<ul class="resume-timeline-list">
-													<li>
-														Lightweight project for analyzing Tehran stock exchange using Laravel
-													</li>
-													<li>
-														Getting data from tsetmc.com using API in csv format, storing in the database and retrieving using Eloquent
-													</li>
-													<li>
-														Using Blade template engine to show user’s dynamic customized charts by Highcharts
-													</li>
-												</ul>
-												<div class="row">
-													<div class="col-sm-12 col-md-3">
-														<a href="assets/images/b1.png" target="_blank">
-															<img class="img-fluid" src="assets/images/b1.png">
-														</a>
-													</div>
-													<div class="col-sm-12 col-md-3">
-														<a href="assets/images/b2.png" target="_blank">
-															<img class="img-fluid" src="assets/images/b2.png">
-														</a>
-													</div>
-													<div class="col-sm-12 col-md-3">
-														<a href="assets/images/b3.png" target="_blank">
-															<img class="img-fluid" src="assets/images/b3.png">
-														</a>
-													</div>
-												</div>
-											</div><!--//resume-timeline-item-desc-->
-										</article><!--//resume-timeline-item-->
-										<article class="resume-timeline-item position-relative mb-5">
-											<div class="resume-timeline-item-header mb-2">
 												<h3 class="resume-position-title d-flex justify-content-between mb-1">
 													Akrez eCommerce Platform
 													<a class="resume-company-name small" href="https://akrez.ir/" target="_blank">
@@ -241,10 +206,10 @@
 														Dynamic eCommerce Platform that empowers small and medium businesses to build their own shopping website in a separate domain
 													</li>
 													<li>
-														Used Yii2 framework
+														Used Laravel framework
 													</li>
 													<li>
-														Built user frontend by bootstrap4, fully by json API
+														Built user frontend by bootstrap, fully by json API
 													</li>
 													<li>
 														Uses different visual tools such as Chart.js to show visit stats
@@ -286,6 +251,124 @@
 												</div>
 											</div><!--//resume-timeline-item-desc-->
 										</article><!--//resume-timeline-item-->
+
+										<article class="resume-timeline-item position-relative mb-5">
+											<div class="resume-timeline-item-header mb-2">
+												<h3 class="resume-position-title d-flex justify-content-between mb-1">
+													Cv Manager
+													<a class="resume-company-name small" href="https://cvmanager.ir/home/" target="_blank">
+														cvmanager.ir
+													</a>
+												</h3>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<ul class="resume-timeline-list">
+													<li>
+														the ultimate web application for efficient resume management. Designed specifically for companies, CV Manager allows you to effortlessly create and organize projects, positions, and resumes, all in one centralized platform
+														using Node.js, MongoDB, JSON Web Token (JWT), Express.js, REST APIs, Docker, Swagger API, Redis, Jest, JS
+													</li>
+												</ul>
+												<div class="row">
+													<div class="col-sm-12 col-md-3">
+														<a href="assets/images/c1.png" target="_blank">
+															<img class="img-fluid" src="assets/images/c1.png">
+														</a>
+													</div>
+												</div>
+											</div>
+										</article>
+
+										<article class="resume-timeline-item position-relative mb-5">
+											<div class="resume-timeline-item-header mb-2">
+												<h3 class="resume-position-title d-flex justify-content-between mb-1">
+													Akrez Youtube Streamer
+													<a class="resume-company-name small" href="https://youtube.akrezing.ir" target="_blank">
+														youtube.akrezing.ir
+													</a>
+												</h3>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<ul class="resume-timeline-list">
+													<li>
+														a lightweight GUI to stream and download YouTube videos
+														using Guzzle Curl and PSR-7
+													</li>
+												</ul>
+												<div class="row">
+													<div class="col-sm-12 col-md-3">
+														<a href="assets/images/y.png" target="_blank">
+															<img class="img-fluid" src="assets/images/y.png">
+														</a>
+													</div>
+												</div>
+											</div>
+										</article>
+
+										<article class="resume-timeline-item position-relative mb-5">
+											<div class="resume-timeline-item-header mb-2">
+												<h3 class="resume-position-title mb-1">Boursia</h3>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<ul class="resume-timeline-list">
+													<li>
+														Lightweight project for analyzing Tehran stock exchange using Laravel
+													</li>
+													<li>
+														Getting data from tsetmc.com using API in csv format, storing in the database and retrieving using Eloquent
+													</li>
+													<li>
+														Using Blade template engine to show user’s dynamic customized charts by Highcharts
+													</li>
+												</ul>
+												<div class="row">
+													<div class="col-sm-12 col-md-3">
+														<a href="assets/images/b1.png" target="_blank">
+															<img class="img-fluid" src="assets/images/b1.png">
+														</a>
+													</div>
+													<div class="col-sm-12 col-md-3">
+														<a href="assets/images/b2.png" target="_blank">
+															<img class="img-fluid" src="assets/images/b2.png">
+														</a>
+													</div>
+													<div class="col-sm-12 col-md-3">
+														<a href="assets/images/b3.png" target="_blank">
+															<img class="img-fluid" src="assets/images/b3.png">
+														</a>
+													</div>
+												</div>
+											</div><!--//resume-timeline-item-desc-->
+										</article><!--//resume-timeline-item-->
+
+
+
+
+										<article class="resume-timeline-item position-relative mb-5">
+											<div class="resume-timeline-item-header mb-2">
+												<h3 class="resume-position-title d-flex justify-content-between mb-1">
+													Akrez Trade Bot
+													<a class="resume-company-name small" href="https://t.me/akrezTradeBot" target="_blank">
+														@akrezTradeBot
+													</a>
+												</h3>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<ul class="resume-timeline-list">
+													<li>
+														Telegram bot that announces the highest or lowest price of a crypto currency pair within an hour with a chartTelegram bot that announces the highest or lowest price of a crypto currency pair within an hour with a chart
+														using Telegram bot and PHP GD
+													</li>
+												</ul>
+												<div class="row">
+													<div class="col-sm-12 col-md-3">
+														<a href="assets/images/t1.png" target="_blank">
+															<img class="img-fluid" src="assets/images/t1.png">
+														</a>
+													</div>
+												</div>
+											</div>
+										</article>
+
 									</div><!--//resume-timeline-->
 								</section><!--//resume-experience-section-->
 							</div><!--//col-8-->
