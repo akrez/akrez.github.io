@@ -51,7 +51,7 @@
 										About Me
 									</h3>
 									<div class="resume-summary-desc">
-										5 years of experience as PHP Developer in analysis, design, development and management of web using JavaScript, MySQL, PHP
+										6 years of experience as PHP Developer in analysis, design, development and management of web using JavaScript, MySQL, PHP
 									</div>
 								</section><!--//resume-section-->
 
@@ -83,6 +83,13 @@
 														Working with Git (Gitlab) and Gitflow strategy
 													</li>
 												</ul>
+												<div class="row">
+													<div class="col-sm-12 col-md-3">
+														<a href="assets/images/f.png" target="_blank">
+															<img class="img-fluid" src="assets/images/f.png">
+														</a>
+													</div>
+												</div>
 											</div><!--//resume-timeline-item-desc-->
 										</article><!--//resume-timeline-item-->
 
@@ -117,6 +124,13 @@
 
 													</li>
 												</ul>
+												<div class="row">
+													<div class="col-sm-12 col-md-3">
+														<a href="assets/images/s.png" target="_blank">
+															<img class="img-fluid" src="assets/images/s.png">
+														</a>
+													</div>
+												</div>
 											</div><!--//resume-timeline-item-desc-->
 										</article><!--//resume-timeline-item-->
 
@@ -177,7 +191,7 @@
 										Projects
 									</h3>
 									<div class="resume-timeline position-relative">
-										<article class="resume-timeline-item position-relative">
+										<article class="resume-timeline-item position-relative mb-5">
 											<div class="resume-timeline-item-header mb-2">
 												<h3 class="resume-position-title mb-1">Boursia</h3>
 											</div><!--//resume-timeline-item-header-->
@@ -193,9 +207,26 @@
 														Using Blade template engine to show user’s dynamic customized charts by Highcharts
 													</li>
 												</ul>
+												<div class="row">
+													<div class="col-sm-12 col-md-3">
+														<a href="assets/images/b1.png" target="_blank">
+															<img class="img-fluid" src="assets/images/b1.png">
+														</a>
+													</div>
+													<div class="col-sm-12 col-md-3">
+														<a href="assets/images/b2.png" target="_blank">
+															<img class="img-fluid" src="assets/images/b2.png">
+														</a>
+													</div>
+													<div class="col-sm-12 col-md-3">
+														<a href="assets/images/b3.png" target="_blank">
+															<img class="img-fluid" src="assets/images/b3.png">
+														</a>
+													</div>
+												</div>
 											</div><!--//resume-timeline-item-desc-->
 										</article><!--//resume-timeline-item-->
-										<article class="resume-timeline-item position-relative">
+										<article class="resume-timeline-item position-relative mb-5">
 											<div class="resume-timeline-item-header mb-2">
 												<h3 class="resume-position-title d-flex justify-content-between mb-1">
 													Akrez eCommerce Platform
@@ -231,6 +262,28 @@
 														Sends data to the Telegram channel of the website owner just by one click using Telegram API automatically
 													</li>
 												</ul>
+												<div class="row">
+													<div class="col-sm-12 col-md-3">
+														<a href="assets/images/a1.png" target="_blank">
+															<img class="img-fluid" src="assets/images/a1.png">
+														</a>
+													</div>
+													<div class="col-sm-12 col-md-3">
+														<a href="assets/images/a2.png" target="_blank">
+															<img class="img-fluid" src="assets/images/a2.png">
+														</a>
+													</div>
+													<div class="col-sm-12 col-md-3">
+														<a href="assets/images/a3.png" target="_blank">
+															<img class="img-fluid" src="assets/images/a3.png">
+														</a>
+													</div>
+													<div class="col-sm-12 col-md-3">
+														<a href="assets/images/a4.png" target="_blank">
+															<img class="img-fluid" src="assets/images/a4.png">
+														</a>
+													</div>
+												</div>
 											</div><!--//resume-timeline-item-desc-->
 										</article><!--//resume-timeline-item-->
 									</div><!--//resume-timeline-->
