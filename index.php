@@ -78,7 +78,13 @@
 											<div class="resume-timeline-item-desc">
 												<ul class="resume-timeline-list">
 													<li>
+														Management and scheduling of tasks in the Jira platform
+													</li>
+													<li>
 														Developing warehouse management system using FuelPHP framework
+													</li>
+													<li>
+														Develop and optimizing heavy MySql queries
 													</li>
 													<li>
 														Working with Git (Gitlab) and Gitflow strategy
@@ -265,7 +271,7 @@
 											<div class="resume-timeline-item-desc">
 												<ul class="resume-timeline-list">
 													<li>
-														the ultimate web application for efficient resume management. Designed specifically for companies, CV Manager allows you to effortlessly create and organize projects, positions, and resumes, all in one centralized platform
+														The ultimate web application for efficient resume management. Designed specifically for companies, CV Manager allows you to effortlessly create and organize projects, positions, and resumes, all in one centralized platform
 														using Node.js, MongoDB, JSON Web Token (JWT), Express.js, REST APIs, Docker, Swagger API, Redis, Jest, JS
 													</li>
 												</ul>
@@ -291,7 +297,7 @@
 											<div class="resume-timeline-item-desc">
 												<ul class="resume-timeline-list">
 													<li>
-														a lightweight GUI to stream and download YouTube videos
+														A lightweight GUI to stream and download YouTube videos
 														using Guzzle Curl and PSR-7
 													</li>
 												</ul>
@@ -396,35 +402,39 @@
 									</h3>
 									<ul class="list-inline">
 										<li class="list-inline-item"><span class="badge resume-skill-badge">PSR-7</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">SSO</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">JWT</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Swagger API</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Telegram bot</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">PHP GD</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Codeigniter</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Symfony</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Yii2</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Laravel</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Json</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">REST APIs</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">XML</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">SOAP</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Csv</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">Guzzle</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Twig</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Blade</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Eloquent</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Docker</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Redis</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Jira</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Git</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Gitlab</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Gitflow</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Bootstrap</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">JQuery</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Ajax</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Select2</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">Highcharts</span></li>
+										<li class="list-inline-item"><span class="badge resume-skill-badge">ChartJs</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">JavaScript</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">SQL</span></li>
 										<li class="list-inline-item"><span class="badge resume-skill-badge">PHP</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Gitflow</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Symfony</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">SOAP</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Json</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Bootstrap</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Twig</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Yii2</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">JQuery</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Codeigniter</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">SSO</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Laravel</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Blade</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Eloquent</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Csv</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Highcharts</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">ChartJs</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Ajax</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Select2</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">JWT</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">REST APIs</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Docker</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Swagger API</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Redis</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">Telegram bot</span></li>
-										<li class="list-inline-item"><span class="badge resume-skill-badge">PHP GD</span></li>
 									</ul>
 								</section>
 
