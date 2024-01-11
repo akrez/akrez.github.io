@@ -72,13 +72,46 @@
 													</a>
 												</div>
 												<h3 class="resume-position-title d-flex justify-content-between mb-1">
+													Team Manager
+												</h3>
+											</div><!--//resume-timeline-item-header-->
+											<div class="resume-timeline-item-desc">
+												<ul class="resume-timeline-list">
+													<li>
+														Task review and assignment to developers
+													</li>
+													<li>
+														Managing pull requests and code reviews
+													</li>
+													<li>
+														Collaborating with development teams to ensure project completion
+													</li>
+													<li>
+														Implementing best practices for code quality and performance
+													</li>
+													<li>
+														Providing technical guidance and support to team members
+													</li>
+													<li>
+														Contributing to the development and maintenance of web applications
+													</li>
+												</ul>
+											</div><!--//resume-timeline-item-desc-->
+										</article><!--//resume-timeline-item-->
+
+										<article class="resume-timeline-item position-relative mb-4">
+											<div class="resume-timeline-item-header mb-2">
+												<div class="resume-position-meta d-flex justify-content-between mb-1">
+													<div class="resume-position-time">January 2021 – Present</div>
+												</div>
+												<h3 class="resume-position-title d-flex justify-content-between mb-1">
 													FullStack Developer
 												</h3>
 											</div><!--//resume-timeline-item-header-->
 											<div class="resume-timeline-item-desc">
 												<ul class="resume-timeline-list">
 													<li>
-														Developing a huge shipping system which is used in 6 countries and 15+ branches in 4 languages
+														Developing a huge shipping system which is used in 6 countries and 15+ branches in 4 languages using FuelPHP framework
 													</li>
 													<li>
 														Writing and optimizing the complicated MySql queries for handling 22,000+ users with 70,000+ orders and 500,000+ invoices
@@ -204,10 +237,8 @@
 											<div class="resume-timeline-item-desc">
 												<ul class="resume-timeline-list">
 													<li>
-														Dynamic eCommerce Platform that empowers small and medium businesses to build their own shopping website in a separate domain
-													</li>
-													<li>
-														Used Laravel framework
+														Dynamic eCommerce Platform that empowers small and medium businesses
+														to build their own shopping website in a separate domain using Laravel framework
 													</li>
 													<li>
 														Built user frontend by bootstrap, fully by json API
@@ -356,8 +387,7 @@
 											<div class="resume-timeline-item-desc">
 												<ul class="resume-timeline-list">
 													<li>
-														Telegram bot that announces the highest or lowest price of a crypto currency pair within an hour with a chartTelegram bot that announces the highest or lowest price of a crypto currency pair within an hour with a chart
-														using Telegram bot and PHP GD
+														Telegram bot that announces the highest or lowest price of a crypto currency pair within an hour with a chart using Telegram bot and PHP GD
 													</li>
 												</ul>
 												<div class="row">
@@ -440,4 +470,4 @@
 		</div><!--//main-content-wrapper-->
 
 	</div><!--//container-->
-	<script </body>
+</body>
