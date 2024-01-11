@@ -67,27 +67,21 @@
 											<div class="resume-timeline-item-header mb-2">
 												<div class="resume-position-meta d-flex justify-content-between mb-1">
 													<div class="resume-position-time">January 2021 – Present</div>
-												</div>
-												<h3 class="resume-position-title d-flex justify-content-between mb-1">
-													FullStack Developer
 													<a class="resume-company-name small" href="https://bpm.pspexpress.com/login" target="_blank">
 														Favin Tejarat
 													</a>
+												</div>
+												<h3 class="resume-position-title d-flex justify-content-between mb-1">
+													FullStack Developer
 												</h3>
 											</div><!--//resume-timeline-item-header-->
 											<div class="resume-timeline-item-desc">
 												<ul class="resume-timeline-list">
 													<li>
-														Management and scheduling of tasks in the Jira platform
+														Developing a huge shipping system which is used in 6 countries and 15+ branches in 4 languages
 													</li>
 													<li>
-														Developing warehouse management system using FuelPHP framework
-													</li>
-													<li>
-														Develop and optimizing heavy MySql queries
-													</li>
-													<li>
-														Working with Git (Gitlab) and Gitflow strategy
+														Writing and optimizing the complicated MySql queries for handling 22,000+ users with 70,000+ orders and 500,000+ invoices
 													</li>
 												</ul>
 												<div class="row">
@@ -104,12 +98,12 @@
 											<div class="resume-timeline-item-header mb-2">
 												<div class="resume-position-meta d-flex justify-content-between mb-1">
 													<div class="resume-position-time">January 2018 – February 2019</div>
-												</div>
-												<h3 class="resume-position-title d-flex justify-content-between mb-1">
-													FullStack Developer
 													<a class="resume-company-name small" href="https://setarehvanak.com" target="_blank">
 														Setareh Vanak Travel Agency
 													</a>
+												</div>
+												<h3 class="resume-position-title d-flex justify-content-between mb-1">
+													FullStack Developer
 												</h3>
 											</div><!--//resume-timeline-item-header-->
 											<div class="resume-timeline-item-desc">
@@ -145,12 +139,12 @@
 											<div class="resume-timeline-item-header mb-2">
 												<div class="resume-position-meta d-flex justify-content-between mb-1">
 													<div class="resume-position-time">October 2016 – June 2017</div>
-												</div>
-												<h3 class="resume-position-title d-flex justify-content-between mb-1">
-													Backend Developer
 													<div class="resume-company-name small">
 														Travia Online Reservation System
 													</div>
+												</div>
+												<h3 class="resume-position-title d-flex justify-content-between mb-1">
+													Backend Developer
 												</h3>
 											</div><!--//resume-timeline-item-header-->
 											<div class="resume-timeline-item-desc">
@@ -169,12 +163,12 @@
 											<div class="resume-timeline-item-header mb-2">
 												<div class="resume-position-meta d-flex justify-content-between mb-1">
 													<div class="resume-position-time">February 2016 – September 2016</div>
-												</div>
-												<h3 class="resume-position-title d-flex justify-content-between mb-1">
-													Junior Backend Developer
 													<div class="resume-company-name small">
 														Farzan Clinical Research Organization
 													</div>
+												</div>
+												<h3 class="resume-position-title d-flex justify-content-between mb-1">
+													Junior Backend Developer
 												</h3>
 											</div><!--//resume-timeline-item-header-->
 											<div class="resume-timeline-item-desc">
@@ -446,4 +440,4 @@
 		</div><!--//main-content-wrapper-->
 
 	</div><!--//container-->
-</body>
+	<script </body>
