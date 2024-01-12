@@ -41,7 +41,7 @@
 
 			<div class="resume-body p-5 pt-3">
 				<div class="row">
-					<div class="col-main col-12">
+					<div class="col-12 col-md-8">
 						<section class="resume-summary-section resume-section">
 							<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-2 py-lg-3">
 								<i class="resume-section-heading-icon bi bi-person me-2"></i>
@@ -51,7 +51,25 @@
 								6 years of experience as PHP Developer in analysis, design, development and management of web using JavaScript, MySQL, PHP
 							</div>
 						</section><!--//resume-section-->
-
+					</div>
+					<div class="col-12 col-md-4">
+						<section class="resume-educate-section resume-section">
+							<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
+								<i class="resume-section-heading-icon bi bi-book me-2"></i>
+								Education
+							</h3>
+							<ul class="list-unstyled">
+								<li class="mb-2">
+									<div class="resume-degree font-weight-bold">Bachelor in Software Engineer</div>
+									<div class="resume-degree-org">Qom University</div>
+									<div class="resume-degree-time">2011 - 2015</div>
+								</li>
+							</ul>
+						</section><!--//resume-section-->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-main col-12">
 						<section class="resume-experience-section resume-section">
 							<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
 								<i class="resume-section-heading-icon bi bi-briefcase me-2"></i>
@@ -73,7 +91,7 @@
 									</div><!--//resume-timeline-item-header-->
 									<div class="resume-timeline-item-desc">
 										<div class="row">
-											<div class="col-12 col-md-9">
+											<div class="col-12 col-sm-10">
 												<ul class="resume-timeline-list">
 													<li>
 														Task review and assignment to developers
@@ -93,6 +111,12 @@
 													<li>
 														Contributing to the development and maintenance of web applications
 													</li>
+												</ul>
+												<ul class="list-inline">
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Jira</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Gitflow</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Gitlab</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Sentry</span></li>
 												</ul>
 											</div>
 											<div class="col-12 col-sm-2">
@@ -115,6 +139,9 @@
 													<li>
 														Writing and optimizing the complicated MySql queries for handling 22,000+ users with 70,000+ orders and 500,000+ invoices
 													</li>
+												</ul>
+												<ul class="list-inline">
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Fuelphp</span></li>
 												</ul>
 											</div>
 											<div class="col-12 col-sm-2">
@@ -159,6 +186,11 @@
 
 													</li>
 												</ul>
+												<ul class="list-inline">
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Symfony</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">SOAP</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Twig</span></li>
+												</ul>
 											</div>
 											<div class="col-12 col-sm-2">
 												<a href="assets/images/s.png" target="_blank">
@@ -192,6 +224,12 @@
 														Developed online flight reservation system using combination and merge some international online services such as Amadeus Ticketing Platform
 													</li>
 												</ul>
+												<ul class="list-inline">
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Yii2</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Json</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">JQuery</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Bootstrap</span></li>
+												</ul>
 											</div>
 											<div class="col-12 col-sm-2">
 											</div>
@@ -221,6 +259,11 @@
 													<li>
 														Worked on hub module for implementing single sign-on service (SSO)
 													</li>
+												</ul>
+												<ul class="list-inline">
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Codeigniter</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">SSO</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Ajax</span></li>
 												</ul>
 											</div>
 
@@ -275,6 +318,10 @@
 														Sends data to the Telegram channel of the website owner just by one click using Telegram API automatically
 													</li>
 												</ul>
+												<ul class="list-inline">
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Laravel</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">REST APIs</span></li>
+												</ul>
 											</div>
 											<div class="col-12 col-sm-2">
 												<a href="assets/images/a1.png" target="_blank">
@@ -309,8 +356,17 @@
 												<ul class="resume-timeline-list">
 													<li>
 														The ultimate web application for efficient resume management. Designed specifically for companies, CV Manager allows you to effortlessly create and organize projects, positions, and resumes, all in one centralized platform
-														using Node.js, MongoDB, JSON Web Token (JWT), Express.js, REST APIs, Docker, Swagger API, Redis, Jest, JS
 													</li>
+												</ul>
+												<ul class="list-inline">
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Jest</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Redis</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Swagger API</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Docker</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Express.js</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">JSON Web Token (JWT)</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">MongoDB</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Node.js</span></li>
 												</ul>
 											</div>
 											<div class="col-12 col-sm-2">
@@ -337,8 +393,12 @@
 												<ul class="resume-timeline-list">
 													<li>
 														A lightweight GUI to stream and download YouTube videos
-														using Guzzle Curl and PSR-7
 													</li>
+												</ul>
+												<ul class="list-inline">
+													<li class="list-inline-item"><span class="badge resume-skill-badge">PSR-7</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Guzzle</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Curl</span></li>
 												</ul>
 											</div>
 											<div class="col-12 col-sm-2">
@@ -362,11 +422,15 @@
 														Lightweight project for analyzing Tehran stock exchange using Laravel
 													</li>
 													<li>
-														Getting data from tsetmc.com using API in csv format, storing in the database and retrieving using Eloquent
+														Getting data from tsetmc.com using API in Csv format, storing in the database and retrieving using Eloquent
 													</li>
 													<li>
 														Using Blade template engine to show user’s dynamic customized charts by Highcharts
 													</li>
+												</ul>
+												<ul class="list-inline">
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Eloquent</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Blade</span></li>
 												</ul>
 											</div>
 											<div class="col-12 col-sm-2">
@@ -401,6 +465,10 @@
 														Telegram bot that announces the highest or lowest price of a crypto currency pair within an hour with a chart using Telegram bot and PHP GD
 													</li>
 												</ul>
+												<ul class="list-inline">
+													<li class="list-inline-item"><span class="badge resume-skill-badge">PHP GD</span></li>
+													<li class="list-inline-item"><span class="badge resume-skill-badge">Telegram bot</span></li>
+												</ul>
 											</div>
 											<div class="col-12 col-sm-2">
 												<a href="assets/images/t1.png" target="_blank">
@@ -413,64 +481,6 @@
 
 							</div><!--//resume-timeline-->
 						</section><!--//resume-experience-section-->
-
-						<section class="resume-educate-section resume-section">
-							<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
-								<i class="resume-section-heading-icon bi bi-book me-2"></i>
-								Education
-							</h3>
-							<ul class="list-unstyled">
-								<li class="mb-2">
-									<div class="resume-degree font-weight-bold">Bachelor in Software Engineer</div>
-									<div class="resume-degree-org">Qom University</div>
-									<div class="resume-degree-time">2011 - 2015</div>
-								</li>
-							</ul>
-						</section><!--//resume-section-->
-
-						<section class="resume-skills-section resume-section">
-							<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
-								<i class="resume-section-heading-icon bi bi-person-gear me-2"></i>
-								Skills
-							</h3>
-							<ul class="list-inline">
-								<li class="list-inline-item"><span class="badge resume-skill-badge">PSR-7</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">SSO</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">JWT</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Swagger API</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Telegram bot</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">PHP GD</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Codeigniter</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Symfony</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Yii2</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Laravel</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Json</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">REST APIs</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">XML</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">SOAP</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Csv</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Guzzle</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Twig</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Blade</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Eloquent</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Docker</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Redis</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Jira</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Git</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Gitlab</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Gitflow</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Bootstrap</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">JQuery</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Ajax</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Select2</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">Highcharts</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">ChartJs</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">JavaScript</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">SQL</span></li>
-								<li class="list-inline-item"><span class="badge resume-skill-badge">PHP</span></li>
-							</ul>
-						</section>
-
 					</div><!--//col-8-->
 				</div><!--//row-->
 			</div><!--//resume-body-->
