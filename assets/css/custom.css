@@ -2,8 +2,22 @@ body {
   font-family: "sahel", sans-serif
 }
 
+.light-mode .resume-wrapper {
+  box-shadow: none;
+}
+
 @media print {
-  
+
+  body {
+    visibility: hidden;
+  }
+
+  .resume-wrapper {
+    visibility: visible;
+    margin: 0;
+    padding: 0;
+  }
+
   .col-md-1 {
     width: 8%;
     float: left;
