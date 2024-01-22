@@ -576,7 +576,7 @@
 			contacts.forEach(function (contact, contactIndex) {
 				$('#contacts').append(`<li class="list-inline-item mx-3">
 					<i class="resume-contact-icon me-2 bi ` + contact.i + `"></i>
-					<a href="` + contact.href.replace(/\$/g, '') + `">
+					<a target="_blank" href="` + contact.href.replace(/\$/g, '') + `">
 						` + contact.content.replace(/\$/g, '') + `
 					</a>
 				</li>`);
