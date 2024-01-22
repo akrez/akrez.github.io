@@ -548,36 +548,36 @@
 			let contacts = [
 				{
 					'i': 'bi-telephone-inbound',
-					'href': 'tel:(+98)9102111553',
-					'content': '(+98)9102111553',
+					'href': 'tel:(+9$8$)$9$1$0$2$1$1$1$5$5$3',
+					'content': '(+9$8$)$9$1$0$2$1$1$1$5$5$3',
 				},
 				{
 					'i': 'bi bi-envelope',
-					'href': 'mailto:akrez.like@gmail.com',
-					'content': 'akrez.like@gmail.com',
+					'href': 'mailto:a$k$r$e$z$.$l$i$k$e$@$g$m$a$i$l$.$c$o$m',
+					'content': 'a$k$r$e$z$.$l$i$k$e$@$g$m$a$i$l$.$c$o$m',
 				},
 				{
 					'i': 'bi bi-globe',
-					'href': 'https://aliakbarrezaei.ir',
-					'content': 'aliakbarrezaei.ir',
+					'href': 'https://a$l$i$a$k$b$a$r$r$e$z$a$e$i$.$i$r',
+					'content': 'a$l$i$a$k$b$a$r$r$e$z$a$e$i$.$i$r',
 				},
 				{
 					'i': 'bi bi-github',
-					'href': 'https://github.com/akrez',
-					'content': 'akrez',
+					'href': 'https://github.com/a$k$r$e$z',
+					'content': 'a$k$r$e$z',
 				},
 				{
 					'i': 'bi bi-linkedin',
-					'href': 'https://www.linkedin.com/in/akrez',
-					'content': 'akrez',
+					'href': 'https://www.linkedin.com/in/a$k$r$e$z',
+					'content': 'a$k$r$e$z',
 				},
 			];
 
-			contacts.forEach(function (contact, itemKey) {
+			contacts.forEach(function (contact, contactIndex) {
 				$('#contacts').append(`<li class="list-inline-item mx-3">
 					<i class="resume-contact-icon me-2 bi ` + contact.i + `"></i>
-					<a href="` + contact.href + `">
-						` + contact.content + `
+					<a href="` + contact.href.replace(/\$/g, '') + `">
+						` + contact.content.replace(/\$/g, '') + `
 					</a>
 				</li>`);
 			});
