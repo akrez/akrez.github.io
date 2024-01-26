@@ -12,6 +12,11 @@ body {
 
 @media print {
 
+  .light-mode {
+    background: white;
+    color: #354765
+  }
+
   body {
     visibility: hidden;
   }
