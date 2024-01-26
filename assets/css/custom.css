@@ -6,6 +6,10 @@ body {
   box-shadow: none;
 }
 
+.resume-section {
+  margin-bottom: 1rem;
+}
+
 @media print {
 
   body {
