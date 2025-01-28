@@ -10,6 +10,14 @@ body {
   margin-bottom: 1rem;
 }
 
+.resume-contact {
+  padding: 1rem 0;
+}
+
+.resume-progress {
+  height: 10px;
+}
+
 @media print {
 
   .light-mode {
