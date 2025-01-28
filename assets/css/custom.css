@@ -18,6 +18,10 @@ body {
   height: 10px;
 }
 
+.light-mode {
+  background: #ffffff;
+}
+
 @media print {
 
   .light-mode {
