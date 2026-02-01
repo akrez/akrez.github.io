@@ -48,6 +48,6 @@ if (isset($_GET['visits'])) {
     echo $table;
 }
 
-$index = file_get_contents('..'.DIRECTORY_SEPARATOR.'index.php');
+$index = file_get_contents('..'.DIRECTORY_SEPARATOR.'index.html');
 $index = str_replace('public/assets', 'assets', $index);
 die($index);
