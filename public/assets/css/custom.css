@@ -29,10 +29,6 @@ body {
     color: #354765
   }
 
-  body {
-    visibility: hidden;
-  }
-
   .resume-wrapper {
     visibility: visible;
     margin: 0;
