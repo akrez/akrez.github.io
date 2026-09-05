@@ -2,926 +2,501 @@
 <html lang="en">
 
 <head>
-	<title>AliAkbar Rezaei Resume</title>
-
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="favicon.png">
+	<title>AliAkbar Rezaei – Senior PHP/Laravel Backend Developer</title>
+	<style>
+		:root {
+			--primary: #1a365d;
+			--accent: #2c5282;
+			--text: #1a202c;
+			--muted: #718096;
+			--border: #e2e8f0;
+			--bg-light: #f7fafc;
+			--badge-bg: #ebf4ff;
+			--badge-text: #2b6cb0;
+		}
 
-	<link rel="stylesheet" href="public/assets/plugins/sahel/css/sahel.css">
-	<link rel="stylesheet" href="public/assets/plugins/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="public/assets/plugins/bootstrap-icons/bootstrap-icons.min.css">
-	<link rel="stylesheet" href="public/assets/css/shine.css">
-	<link rel="stylesheet" href="public/assets/css/custom.css">
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+			color: var(--text);
+			line-height: 1.5;
+			background: #edf2f7;
+			padding: 24px 12px;
+		}
+
+		.resume {
+			max-width: 860px;
+			margin: 0 auto;
+			background: #fff;
+			border-radius: 8px;
+			box-shadow: 0 4px 24px rgba(0, 0, 0, .08);
+			overflow: hidden;
+		}
+
+		.header {
+			background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+			color: #fff;
+			padding: 28px 32px 24px;
+			text-align: center;
+		}
+
+		.header h1 {
+			font-size: 1.75rem;
+			font-weight: 700;
+			letter-spacing: 0.5px;
+			margin-bottom: 4px;
+		}
+
+		.header .role {
+			font-size: 1rem;
+			opacity: 0.92;
+			margin-bottom: 14px;
+		}
+
+		.contact {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 6px 18px;
+			font-size: 0.82rem;
+			opacity: 0.95;
+		}
+
+		.contact a {
+			color: #fff;
+			text-decoration: none;
+			border-bottom: 1px solid transparent;
+		}
+
+		.contact a:hover {
+			border-bottom-color: rgba(255, 255, 255, .6);
+		}
+
+		.contact span {
+			opacity: 0.7;
+		}
+
+		.body {
+			padding: 24px 32px 32px;
+		}
+
+		section {
+			margin-bottom: 22px;
+		}
+
+		h2 {
+			font-size: 0.95rem;
+			font-weight: 700;
+			color: var(--primary);
+			text-transform: uppercase;
+			letter-spacing: 0.6px;
+			border-bottom: 2px solid var(--primary);
+			padding-bottom: 5px;
+			margin-bottom: 12px;
+		}
+
+		.summary {
+			font-size: 0.88rem;
+			text-align: justify;
+			color: #2d3748;
+		}
+
+		.summary b {
+			color: var(--primary);
+		}
+
+		.skills-grid {
+			display: grid;
+			grid-template-columns: 140px 1fr;
+			gap: 6px 12px;
+			font-size: 0.84rem;
+		}
+
+		.skills-grid .label {
+			font-weight: 600;
+			color: var(--accent);
+		}
+
+		.skills-grid .value b {
+			color: var(--primary);
+		}
+
+		.job {
+			margin-bottom: 16px;
+		}
+
+		.job-header {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: baseline;
+			gap: 4px 12px;
+			margin-bottom: 2px;
+		}
+
+		.job-title {
+			font-size: 0.92rem;
+			font-weight: 700;
+			color: var(--text);
+		}
+
+		.job-company {
+			font-weight: 600;
+			color: var(--accent);
+		}
+
+		.job-date {
+			font-size: 0.8rem;
+			color: var(--muted);
+			font-style: italic;
+		}
+
+		.job-intro {
+			font-size: 0.84rem;
+			margin: 4px 0 6px;
+			color: #2d3748;
+		}
+
+		.job-intro b {
+			color: var(--primary);
+		}
+
+		ul.bullets {
+			list-style: none;
+			padding: 0;
+		}
+
+		ul.bullets li {
+			font-size: 0.83rem;
+			padding: 2px 0 2px 14px;
+			position: relative;
+			color: #2d3748;
+		}
+
+		ul.bullets li::before {
+			content: "•";
+			position: absolute;
+			left: 0;
+			color: var(--accent);
+			font-weight: 700;
+		}
+
+		ul.bullets li b {
+			color: var(--primary);
+		}
+
+		.project {
+			margin-bottom: 10px;
+		}
+
+		.project-name {
+			font-size: 0.88rem;
+			font-weight: 700;
+			color: var(--text);
+		}
+
+		.project-desc {
+			font-size: 0.83rem;
+			color: #2d3748;
+		}
+
+		.project-desc b {
+			color: var(--primary);
+		}
+
+		.edu-item,
+		.lang-item {
+			font-size: 0.88rem;
+			margin-bottom: 4px;
+		}
+
+		@media print {
+			body {
+				background: #fff;
+				padding: 0;
+			}
+
+			.resume {
+				box-shadow: none;
+				border-radius: 0;
+			}
+
+			.header {
+				-webkit-print-color-adjust: exact;
+				print-color-adjust: exact;
+			}
+
+			a {
+				color: inherit !important;
+				text-decoration: none !important;
+			}
+		}
+
+		@media (max-width: 600px) {
+			.body {
+				padding: 18px 16px 24px;
+			}
+
+			.header {
+				padding: 22px 16px 18px;
+			}
+
+			.skills-grid {
+				grid-template-columns: 1fr;
+				gap: 2px;
+			}
+
+			.skills-grid .label {
+				margin-top: 6px;
+			}
+
+			.job-header {
+				flex-direction: column;
+			}
+		}
+	</style>
 </head>
 
-
-<body class="light-mode">
-	<div class="container">
-		<div class="mx-auto rounded-2 pt-0 m-4">
-			<div class="resume-header p-4 pb-0 p-lg-5 pb-lg-0">
-				<div class="resume-profile-holder text-center">
-					<h2 class="resume-name">AliAkbar Rezaei</h2>
-					<div class="resume-role-title text-uppercase">PHP Developer</div>
-					<div class="resume-contact mt-3">
-						<ul class="resume-contact-list list-unstyled list-inline mb-0 justify-content-between"
-							id="contacts">
-						</ul>
-					</div>
-				</div>
+<body>
+	<div class="resume">
+		<header class="header">
+			<h1>AliAkbar Rezaei</h1>
+			<div class="role">Senior PHP/Laravel Backend Developer</div>
+			<div class="contact">
+				<span>Tehran, Iran</span>
+				<a href="tel:+989102111553">+98 910 211 1553</a>
+				<a href="mailto:akrez.like@gmail.com">akrez.like@gmail.com</a>
+				<a href="https://linkedin.com/in/akrez" target="_blank">linkedin.com/in/akrez</a>
+				<a href="https://github.com/akrez" target="_blank">github.com/akrez</a>
+				<a href="https://aliakbarrezaei.ir" target="_blank">aliakbarrezaei.ir</a>
 			</div>
+		</header>
 
-			<div class="resume-body p-5 pt-3">
-				<div class="row">
-					<div class="col-12 col-md-9">
-						<section class="resume-summary-section resume-section">
-							<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
-								<i class="resume-section-heading-icon bi bi-person me-2"></i>
-								About Me
-							</h3>
-							<div class="resume-summary-desc">
-								Experienced PHP Developer with 9+ years of expertise in designing, developing, and
-								managing web applications using PHP, JavaScript, and MySQL. Proficient in building
-								secure, scalable, and maintainable systems, adept at collaborating with cross-functional
-								teams to deliver high-quality software solutions.
-							</div>
-						</section><!--//resume-section-->
+		<div class="body">
+			<section>
+				<h2>Professional Summary</h2>
+				<p class="summary">
+					Senior <b>PHP/Laravel</b> Backend Developer with <b>9+ years</b> of hands-on experience building and
+					maintaining web applications across <b>eCommerce</b>, logistics, education, and <b>FinTech</b>.
+					Comfortable owning backend architecture, <b>RESTful APIs</b>, and relational data design
+					(<b>MySQL</b>, <b>PostgreSQL</b>) as well as contributing to product features end to end. Proven
+					<b>technical leadership</b>: led a development team, ran <b>code reviews</b>, and mentored
+					mid/junior engineers. Currently contributing to a high-volume <b>BNPL</b> platform. Strong focus on
+					clean code, <b>PHPUnit</b> testing, and practical <b>CI/CD</b> with <b>Docker</b> and GitLab.
+				</p>
+			</section>
+
+			<section>
+				<h2>Technical Skills</h2>
+				<div class="skills-grid">
+					<div class="label">Languages</div>
+					<div class="value"><b>PHP</b> (Advanced), <b>SQL</b>, <b>Python</b> (Basic), JavaScript</div>
+
+					<div class="label">Frameworks</div>
+					<div class="value"><b>Laravel</b> (10+), Symfony, Yii2, FuelPHP, CodeIgniter, <b>RoadRunner</b>
 					</div>
-					<div class="col-12 col-md-3">
-						<section class="resume-summary-section resume-section">
-							<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
-								<i class="resume-section-heading-icon bi bi-book me-2"></i>
-								Education
-							</h3>
-							<ul class="list-unstyled">
-								<li class="mb-2">
-									<div class="resume-degree font-weight-bold">Bachelor of Software Engineer</div>
-									<div class="resume-degree-org">Qom University</div>
-									<div class="resume-degree-time">2011 - 2015</div>
-								</li>
-							</ul>
-						</section><!--//resume-section-->
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-12 col-md-9">
-						<section class="resume-experience-section resume-section">
-							<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
-								<i class="resume-section-heading-icon bi bi-briefcase me-2"></i>
-								Professional Experience
-							</h3>
-							<div class="resume-timeline position-relative">
 
-								<article class="resume-timeline-item position-relative mb-1">
-									<div class="resume-timeline-item-header mb-2">
-										<div class="resume-position-meta d-flex justify-content-between mb-1">
-											<div class="resume-position-time">May 2025 – Present</div>
-										</div>
-										<h3 class="resume-position-title mb-1">
-											Backend Developer
-											<a class="resume-company-name small ms-1" href="https://lendo.ir/"
-												target="_blank">
-												Lendo - Short Term Investment (FinTech)
-											</a>
-										</h3>
-									</div>
-									<div class="resume-timeline-item-desc">
-										<div class="row">
-											<div class="col-12 col-sm-12">
-												<ul class="resume-timeline-list">
-													<li>
-														Developed a customer loyalty club system where users earn or
-														purchase reward coins, then redeem them for loans within the
-														core
-														loan disbursement module.
-													</li>
-													<li>
-														Architected the system using Laravel with Service and Repository
-														patterns to ensure separation of concerns and maintainability.
-													</li>
-													<li>
-														Wrote Unit Tests for all services and Feature Tests for
-														endpoints,
-														listeners, and other components.
-													</li>
-													<li>
-														Resolved race condition issues in critical loan and coin
-														transactions.
-													</li>
-													<li>
-														Performed complex database analysis and optimizations for
-														high-volume financial data.
-													</li>
-													<li>
-														Implemented caching strategies to improve performance and reduce
-														database load.
-													</li>
-													<li>
-														Leveraged Laravel’s IoC Container for dependency injection and
-														decoupled component design.
-													</li>
-													<li>
-														Used mocking extensively in tests to isolate external
-														dependencies.
-													</li>
-													<li>
-														Handled notifications across multiple channels (email, SMS,
-														in-app).
-													</li>
-													<li>
-														Offloaded heavy tasks to queues for asynchronous processing.
-													</li>
-												</ul>
-												<ul class="list-inline">
-													<li class="list-inline-item">
-														<span class="badge resume-skill-badge">
-															Repository Pattern
-														</span>
-													</li>
-													<li class="list-inline-item">
-														<span class="badge resume-skill-badge">
-															Service Layer
-														</span>
-													</li>
-													<li class="list-inline-item">
-														<span class="badge resume-skill-badge">
-															Unit Testing
-														</span>
-													</li>
-													<li class="list-inline-item">
-														<span class="badge resume-skill-badge">
-															Feature Testing
-														</span>
-													</li>
-													<li class="list-inline-item">
-														<span class="badge resume-skill-badge">
-															Pipeline Pattern
-														</span>
-													</li>
-													<li class="list-inline-item">
-														<span class="badge resume-skill-badge">
-															MySQL Optimization
-														</span>
-													</li>
-													<li class="list-inline-item">
-														<span class="badge resume-skill-badge">
-															Caching (Redis/Memcached)
-														</span>
-													</li>
-													<li class="list-inline-item">
-														<span class="badge resume-skill-badge">
-															IoC Container
-														</span>
-													</li>
-													<li class="list-inline-item">
-														<span class="badge resume-skill-badge">
-															Mocking
-														</span>
-													</li>
-													<li class="list-inline-item">
-														<span class="badge resume-skill-badge">
-															Multi-channel Notifications
-														</span>
-													</li>
-													<li class="list-inline-item">
-														<span class="badge resume-skill-badge">
-															Queues (Redis/Database)
-														</span>
-													</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</article>
+					<div class="label">APIs & Async</div>
+					<div class="value"><b>REST API</b> design, <b>RabbitMQ</b> (Basic), message queues</div>
 
-								<article class="resume-timeline-item position-relative mb-1">
-									<div class="resume-timeline-item-header mb-2">
-										<div class="resume-position-meta d-flex justify-content-between mb-1">
-											<div class="resume-position-time">July 2024 – May 2025</div>
-										</div>
-										<h3 class="resume-position-title mb-1">
-											Backend Developer
-											<a class="resume-company-name small ms-1" href="https://gosafir.com/fa/"
-												target="_blank">
-												Safir Language Academy
-											</a>
-										</h3>
-									</div>
-									<div class="resume-timeline-item-desc">
-										<div class="row">
-											<div class="col-12 col-sm-12">
-												<ul class="resume-timeline-list">
-													<li>
-														Developing Single Sign-On (SSO) with Laravel Passport to enable
-														secure and seamless authentication across multiple platforms.
-														This project involves implementing OAuth2 protocols, managing
-														tokens, and ensuring a smooth user experience.
-													</li>
-													<li>
-														Building Language Placement System that uses Laravel Passport
-														for user authentication and authorization. The system evaluates
-														user proficiency, stores results efficiently with Eloquent ORM.
-													</li>
-												</ul>
-												<ul class="list-inline">
-													<li class="list-inline-item">
-														<span class="badge resume-skill-badge">
-															Single Sign-On with Passport
-														</span>
-													</li>
-													<li class="list-inline-item">
-														<span class="badge resume-skill-badge">
-															Tailwind CSS
-														</span>
-													</li>
-													<li class="list-inline-item">
-														<span class="badge resume-skill-badge">Sentry</span>
-													</li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Authentication</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">File Storage</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">HTTP Client</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Notifications</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Eloquent ORM</span></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</article>
+					<div class="label">Data</div>
+					<div class="value"><b>MySQL</b> / MariaDB (Advanced), <b>PostgreSQL</b>, <b>MongoDB</b>,
+						<b>Redis</b></div>
 
-								<article class="resume-timeline-item position-relative mb-1">
-									<div class="resume-timeline-item-header mb-2">
-										<div class="resume-position-meta d-flex justify-content-between mb-1">
-											<div class="resume-position-time">January 2021 – April 2024</div>
-										</div>
-										<h3 class="resume-position-title mb-1">
-											Team Manager
-											<a class="resume-company-name small ms-1" href="https://favin.ir/"
-												target="_blank">
-												Favin
-											</a>
-										</h3>
-									</div>
-									<div class="resume-timeline-item-desc">
-										<div class="row">
-											<div class="col-12 col-sm-12">
-												<ul class="resume-timeline-list">
-													<li>
-														Task review and assignment to developers
-													</li>
-													<li>
-														Managing pull requests and code reviews
-													</li>
-													<li>
-														Contributing to the development and maintenance of web
-														applications to ensure project completion
-													</li>
-													<li>
-														Implementing best practices for code quality and performance and
-														providing technical guidance and support to team members
-													</li>
-												</ul>
-												<ul class="list-inline">
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Jira</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Gitflow</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Gitlab</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Sentry</span></li>
-												</ul>
-											</div>
-										</div>
-									</div>
+					<div class="label">Caching & Performance</div>
+					<div class="value"><b>Redis</b> caching, query optimization, profiling, race-condition handling,
+						<b>RoadRunner</b></div>
 
-									<div class="resume-timeline-item-header mb-2">
-										<h3 class="resume-position-title mb-1">
-											Cv Manager
-											<a class="resume-company-name small ms-1" href="https://cvmanager.ir/home/"
-												target="_blank">
-												cvmanager.ir
-											</a>
-										</h3>
-									</div>
-									<div class="resume-timeline-item-desc">
-										<div class="row">
-											<div class="col-12 col-sm-12">
-												<ul class="resume-timeline-list">
-													<li>
-														The ultimate web application for efficient resume management.
-														Designed specifically for companies, CV Manager allows you to
-														effortlessly create and organize projects, positions, and
-														resumes, all in one centralized platform
-													</li>
-												</ul>
-											</div>
-											<div class="col-12 col-sm-2 d-none">
-												<a href="assets/images/c1.png" target="_blank">
-													<img class="img-fluid" src="assets/images/c1.png">
-												</a>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-12">
-												<ul class="list-inline">
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Jest</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Redis</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Swagger API</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Docker</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Express.js</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">JWT</span>
-													</li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">MongoDB</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Node.js</span></li>
-												</ul>
-											</div>
-										</div>
-									</div>
+					<div class="label">Infrastructure</div>
+					<div class="value"><b>Docker</b>, <b>GitLab CI/CD</b>, Git / GitFlow, <b>Jira</b>,
+						Prometheus/Grafana, Sentry</div>
 
-									<div class="resume-timeline-item-header mb-2">
-										<h3 class="resume-position-title mb-1">
-											FullStack Developer
-											<a class="resume-company-name small ms-1"
-												href="https://bpm.pspexpress.com/login" target="_blank">
-												Fater Tejarat
-											</a>
-										</h3>
-									</div>
-									<div class="resume-timeline-item-desc">
-										<div class="row">
-											<div class="col-12 col-sm-12">
-												<ul class="resume-timeline-list">
-													<li>
-														Developing a huge shipping system which is used in 6 countries
-														and 15+ branches in 4 languages using FuelPHP framework
-													</li>
-													<li>
-														Writing and optimizing the complicated MySql queries for
-														handling 22,000+ users with 70,000+ orders and 500,000+ invoices
-													</li>
-												</ul>
-												<ul class="list-inline">
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Fuelphp</span></li>
-												</ul>
-											</div>
-											<div class="col-12 col-sm-2 d-none">
-												<a href="assets/images/f.png" target="_blank">
-													<img class="img-fluid" src="assets/images/f.png">
-												</a>
-											</div>
-										</div>
-									</div>
-								</article><!--//resume-timeline-item-->
+					<div class="label">Security</div>
+					<div class="value"><b>JWT</b>, <b>OAuth2</b> / Laravel Passport / Sanctum, encryption,
+						data-protection practices</div>
 
-								<article class="resume-timeline-item position-relative mb-1">
-									<div class="resume-timeline-item-header mb-2">
-										<div class="resume-position-meta d-flex justify-content-between mb-1">
-											<div class="resume-position-time">January 2018 – February 2019</div>
-										</div>
-										<h3 class="resume-position-title mb-1">
-											FullStack Developer
-											<a class="resume-company-name small ms-1" href="https://setarehvanak.com"
-												target="_blank">
-												Setareh Vanak Travel Agency
-											</a>
-										</h3>
-									</div>
-									<div class="resume-timeline-item-desc">
-										<div class="row">
-											<div class="col-12 col-sm-12">
-												<ul class="resume-timeline-list">
-													<li>
-														Built modular and maintainable applications using Symfony
-													</li>
-													<li>
-														Built GUI using Saman Insuranse XML SOAP
-													</li>
-													<li>
-														Worked with international online hotel reservation providers
-														json API
-													</li>
-													<li>
-														Implemented admin panel using Bootstrap 3
-													</li>
-													<li>
-														Used TWIG templating engine for rendering dynamic views
-
-													</li>
-												</ul>
-												<ul class="list-inline">
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Symfony</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">SOAP</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Twig</span></li>
-												</ul>
-											</div>
-											<div class="col-12 col-sm-2 d-none">
-												<a href="assets/images/s.png" target="_blank">
-													<img class="img-fluid" src="assets/images/s.png">
-												</a>
-											</div>
-										</div>
-									</div>
-								</article><!--//resume-timeline-item-->
-
-								<article class="resume-timeline-item position-relative mb-1">
-									<div class="resume-timeline-item-header mb-2">
-										<div class="resume-position-meta d-flex justify-content-between mb-1">
-											<div class="resume-position-time">October 2016 – June 2017</div>
-										</div>
-										<h3 class="resume-position-title mb-1">
-											Backend Developer
-											<span class="resume-company-name small ms-1">
-												Travia Online Reservation System
-											</span>
-										</h3>
-									</div>
-									<div class="resume-timeline-item-desc">
-										<div class="row">
-											<div class="col-12 col-sm-12">
-												<ul class="resume-timeline-list">
-													<li>
-														Worked primarily as a backend developer on the company's main
-														system using Yii2 framework
-													</li>
-													<li>
-														Developed online flight reservation system using combination and
-														merge some international online services such as Amadeus
-														Ticketing Platform
-													</li>
-												</ul>
-												<ul class="list-inline">
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Yii2</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">JQuery</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Bootstrap</span></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</article><!--//resume-timeline-item-->
-
-								<article class="resume-timeline-item position-relative mb-1">
-									<div class="resume-timeline-item-header mb-2">
-										<div class="resume-position-meta d-flex justify-content-between mb-1">
-											<div class="resume-position-time">February 2016 – September 2016</div>
-										</div>
-										<h3 class="resume-position-title mb-1">
-											Junior Backend Developer
-											<span class="resume-company-name small ms-1">
-												Farzan Clinical Research Organization
-											</span>
-										</h3>
-									</div>
-									<div class="resume-timeline-item-desc">
-										<div class="row">
-											<div class="col-12 col-sm-12">
-												<ul class="resume-timeline-list">
-													<li>
-														Developed web backend user interfaces to new and existing
-														databases using Codeigniter PHP framework
-													</li>
-													<li>
-														Worked on hub module for implementing single sign-on service
-														(SSO)
-													</li>
-												</ul>
-												<ul class="list-inline">
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Codeigniter</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Ajax</span></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</article><!--//resume-timeline-item-->
-
-							</div><!--//resume-timeline-->
-						</section><!--//resume-experience-section-->
-					</div>
-					<div class="col-12 col-md-3">
-
-						<section class="resume-lang-section resume-section">
-							<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-									class="resume-section-heading-icon bi bi-person-gear me-2"></i>Skills</h3>
-							<ul class="list-unstyled resume-lang-list">
-
-								<li class="mb-2">
-									<div class="resume-skill-name">PHP</div>
-									<div class="progress resume-progress" role="progressbar" aria-valuenow="80"
-										aria-valuemin="0" aria-valuemax="100">
-										<div class="progress-bar resume-progress-bar" style="width: 80%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name">Laravel</div>
-									<div class="progress resume-progress" role="progressbar" aria-valuenow="80"
-										aria-valuemin="0" aria-valuemax="100">
-										<div class="progress-bar resume-progress-bar" style="width: 80%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name">Yii2</div>
-									<div class="progress resume-progress" role="progressbar" aria-valuenow="80"
-										aria-valuemin="0" aria-valuemax="100">
-										<div class="progress-bar resume-progress-bar" style="width: 80%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name">MySQL</div>
-									<div class="progress resume-progress" role="progressbar" aria-valuenow="80"
-										aria-valuemin="0" aria-valuemax="100">
-										<div class="progress-bar resume-progress-bar" style="width: 80%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name">Bootstrap</div>
-									<div class="progress resume-progress" role="progressbar" aria-valuenow="80"
-										aria-valuemin="0" aria-valuemax="100">
-										<div class="progress-bar resume-progress-bar" style="width: 80%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name">SOLID</div>
-									<div class="progress resume-progress" role="progressbar" aria-valuenow="80"
-										aria-valuemin="0" aria-valuemax="100">
-										<div class="progress-bar resume-progress-bar" style="width: 80%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name">OOP</div>
-									<div class="progress resume-progress" role="progressbar" aria-valuenow="60"
-										aria-valuemin="0" aria-valuemax="100">
-										<div class="progress-bar resume-progress-bar" style="width: 60%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name">PSR-7</div>
-									<div class="progress resume-progress" role="progressbar" aria-valuenow="60"
-										aria-valuemin="0" aria-valuemax="100">
-										<div class="progress-bar resume-progress-bar" style="width: 60%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name">jQuery</div>
-									<div class="progress resume-progress" role="progressbar" aria-valuenow="60"
-										aria-valuemin="0" aria-valuemax="100">
-										<div class="progress-bar resume-progress-bar" style="width: 60%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name">Fuelphp</div>
-									<div class="progress resume-progress" role="progressbar" aria-valuenow="40"
-										aria-valuemin="0" aria-valuemax="100">
-										<div class="progress-bar resume-progress-bar" style="width: 40%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name">Git</div>
-									<div class="progress resume-progress" role="progressbar" aria-valuenow="40"
-										aria-valuemin="0" aria-valuemax="100">
-										<div class="progress-bar resume-progress-bar" style="width: 40%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name">Ubuntu</div>
-									<div class="progress resume-progress" role="progressbar" aria-valuenow="40"
-										aria-valuemin="0" aria-valuemax="100">
-										<div class="progress-bar resume-progress-bar" style="width: 40%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name">Docker</div>
-									<div class="progress resume-progress" role="progressbar" aria-valuenow="40"
-										aria-valuemin="0" aria-valuemax="100">
-										<div class="progress-bar resume-progress-bar" style="width: 40%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name">MongoDB</div>
-									<div class="progress resume-progress" role="progressbar" aria-valuenow="20"
-										aria-valuemin="0" aria-valuemax="100">
-										<div class="progress-bar resume-progress-bar" style="width: 20%"></div>
-									</div>
-								</li>
-							</ul>
-						</section>
-
-						<section class="resume-lang-section resume-section">
-							<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i
-									class="resume-section-heading-icon bi bi-translate me-2"></i>Languages</h3>
-							<ul class="list-unstyled resume-lang-list">
-								<li class="mb-2">
-									<div class="resume-lang-name">English</div>
-									<div class="resume-level-indicator row gx-0 flex-nowrap">
-										<div class="col"><span class="item item-full"></span></div>
-										<div class="col"><span class="item item-full"></span></div>
-										<div class="col"><span class="item"></span></div>
-										<div class="col"><span class="item"></span></div>
-									</div><!--//resume-level-indicator-->
-								</li>
-								<li class="mb-2">
-									<div class="resume-lang-name">Persian</div>
-									<div class="resume-level-indicator row gx-0 flex-nowrap">
-										<div class="col"><span class="item item-full"></span></div>
-										<div class="col"><span class="item item-full"></span></div>
-										<div class="col"><span class="item item-full"></span></div>
-										<div class="col"><span class="item item-full"></span></div>
-									</div><!--//resume-level-indicator-->
-								</li>
-							</ul>
-						</section>
+					<div class="label">Testing & Quality</div>
+					<div class="value"><b>PHPUnit</b>, Pint, unit & feature tests, code reviews, clean-code / SOLID
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-main col-12">
+			</section>
 
+			<section>
+				<h2>Professional Experience</h2>
 
-						<section class="resume-experience-section resume-section">
-							<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3">
-								<i class="resume-section-heading-icon bi bi-code-slash me-2"></i>
-								Projects
-							</h3>
-							<div class="resume-timeline position-relative">
-								<article class="resume-timeline-item position-relative mb-1">
-									<div class="resume-timeline-item-header mb-2">
-										<h3 class="resume-position-title mb-1">
-											Hokm Online Game
-										</h3>
-									</div>
-									<div class="resume-timeline-item-desc">
-										<div class="row">
-											<div class="col-12 col-sm-12">
-												<ul class="resume-timeline-list">
-													<li>
-														Turn-based card game (Hokm) with Alpine.js UI and turn
-														management handled via cache.
-													</li>
-												</ul>
-												<ul class="list-inline">
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Alpine.js</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Cache</span></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</article>
+				<div class="job">
+					<div class="job-header">
+						<div class="job-title">Senior PHP/Laravel Backend Developer &nbsp;·&nbsp; <span
+								class="job-company">Lendo (BNPL / FinTech)</span></div>
+						<div class="job-date">May 2025 – Present &nbsp;|&nbsp; Tehran, Iran</div>
+					</div>
+					<p class="job-intro">
+						Backend development on Iran's leading <b>Buy Now Pay Later (BNPL)</b> installment platform:
+						<b>loan origination</b>, <b>credit decisioning</b>, repayment, settlements, and customer
+						lifecycle.
+					</p>
+					<ul class="bullets">
+						<li>Implemented loan origination, installment invoicing, late-fee calculation, and settlement
+							flows.</li>
+						<li>Integrated banking partners (ABank / BankData) for contract and promissory-note electronic
+							signing, with retry and <b>idempotency</b> on token expiry / 401s.</li>
+						<li>Connected KYC and data providers (Sabte Ahval, Ehrazsho, Finnotech, bank-account inquiries)
+							into the customer-validation workflow.</li>
+						<li>Used <b>RabbitMQ</b> (basic) for asynchronous financial jobs — batch imports, scheduled
+							commands, and daily transaction processing.</li>
+						<li>Ran PHP services under <b>RoadRunner</b> to keep latency acceptable on transaction-heavy
+							paths.</li>
+						<li>Fixed concurrent <b>race conditions</b> in loan disbursement and reward-coin redemption so
+							balances stay consistent under load.</li>
+						<li>Shipped BNPL-specific product features: loyalty club & leaderboard, wheel-of-fortune, gift
+							codes, discounting, and installment payment notifications.</li>
+					</ul>
+				</div>
 
-								<article class="resume-timeline-item position-relative mb-1">
-									<div class="resume-timeline-item-header mb-2">
-										<div class="resume-position-meta d-flex justify-content-between mb-1">
-											<div class="resume-position-time">January 2021 – Present</div>
-										</div>
-										<h3 class="resume-position-title mb-1">
-											Akrez eCommerce Platform
-											<a class="resume-company-name small ms-1" href="https://akrez.ir/"
-												target="_blank">
-												akrez.ir
-											</a>
-											<a class="resume-company-name small ms-1" href="https://shahab-tahrir.ir/"
-												target="_blank">
-												shahab-tahrir.ir
-											</a>
-										</h3>
-									</div>
-									<div class="resume-timeline-item-desc">
-										<div class="row">
-											<div class="col-12 col-sm-12">
-												<ul class="resume-timeline-list">
-													<li>
-														Dynamic eCommerce Platform that empowers small and medium
-														businesses
-														to build their own shopping website in a separate domain using
-														Laravel framework
-													</li>
-													<li>
-														Built user frontend by bootstrap, fully by json API
-													</li>
-													<li>
-														Uses different visual tools such as Chart.js to show visit stats
-													</li>
-													<li>
-														Customers may have different profiles for each shop
-													</li>
-													<li>
-														Website builder can utilize various filters for each category of
-														her/his shopping site
-													</li>
-													<li>
-														Used full ajax datagrid to show, create and edit items
-													</li>
-													<li>
-														Sends data to the Telegram channel of the website owner just by
-														one click using Telegram API automatically
-													</li>
-												</ul>
-												<ul class="list-inline">
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Laravel</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">REST APIs</span></li>
-												</ul>
-											</div>
-											<div class="col-12 col-sm-2 d-none">
-												<a href="assets/images/a4.png" target="_blank">
-													<img class="img-fluid" src="assets/images/a4.png">
-												</a>
-												<a href="assets/images/a1.png" target="_blank">
-													<img class="img-fluid" src="assets/images/a1.png">
-												</a>
-												<a href="assets/images/a2.png" target="_blank">
-													<img class="img-fluid" src="assets/images/a2.png">
-												</a>
-												<a href="assets/images/a3.png" target="_blank">
-													<img class="img-fluid" src="assets/images/a3.png">
-												</a>
-											</div>
-										</div>
-									</div>
-								</article><!--//resume-timeline-item-->
+				<div class="job">
+					<div class="job-header">
+						<div class="job-title">Backend Developer &nbsp;·&nbsp; <span class="job-company">Safir Language
+								Academy</span></div>
+						<div class="job-date">July 2024 – May 2025 &nbsp;|&nbsp; Tehran, Iran</div>
+					</div>
+					<ul class="bullets">
+						<li>Built <b>Single Sign-On (SSO)</b> with <b>Laravel Passport (OAuth2)</b> for secure
+							cross-platform authentication; managed tokens and authorization flows.</li>
+						<li>Developed Language Placement System with Passport auth, <b>Eloquent ORM</b>, file storage,
+							HTTP client integrations, notifications, and <b>Sentry</b> monitoring.</li>
+					</ul>
+				</div>
 
-								<article class="resume-timeline-item position-relative mb-1">
-									<div class="resume-timeline-item-header mb-2">
-										<h3 class="resume-position-title mb-1">
-											Akrez Youtube Streamer
-										</h3>
-									</div>
-									<div class="resume-timeline-item-desc">
-										<div class="row">
-											<div class="col-12 col-sm-12">
-												<ul class="resume-timeline-list">
-													<li>
-														A lightweight GUI to stream and download YouTube videos
-													</li>
-												</ul>
-												<ul class="list-inline">
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">PSR-7</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Guzzle</span></li>
-												</ul>
-											</div>
-											<div class="col-12 col-sm-2 d-none">
-												<a href="assets/images/y.png" target="_blank">
-													<img class="img-fluid" src="assets/images/y.png">
-												</a>
-											</div>
-										</div>
-									</div>
-								</article>
+				<div class="job">
+					<div class="job-header">
+						<div class="job-title">Team Manager / Technical Lead &nbsp;·&nbsp; <span
+								class="job-company">Favin</span></div>
+						<div class="job-date">January 2021 – April 2024 &nbsp;|&nbsp; Tehran, Iran</div>
+					</div>
+					<ul class="bullets">
+						<li>Led development team: task assignment in <b>Jira</b>, pull-request & <b>code reviews</b>,
+							technical mentoring of mid/junior developers, and enforcement of quality standards.</li>
+						<li>Hands-on contribution to web applications; managed <b>GitFlow</b>, <b>GitLab</b>, and
+							Sentry; improved team processes and delivery cadence.</li>
+					</ul>
+				</div>
 
-								<article class="resume-timeline-item position-relative mb-1">
-									<div class="resume-timeline-item-header mb-2">
-										<h3 class="resume-position-title mb-1">Boursia</h3>
-									</div>
-									<div class="resume-timeline-item-desc">
-										<div class="row">
-											<div class="col-12 col-sm-12">
-												<ul class="resume-timeline-list">
-													<li>
-														Lightweight project for analyzing Tehran stock exchange using
-														Laravel
-													</li>
-													<li>
-														Getting data from tsetmc.com using API in Csv format, storing in
-														the database and retrieving using Eloquent
-													</li>
-													<li>
-														Using Blade template engine to show user’s dynamic customized
-														charts by Highcharts
-													</li>
-												</ul>
-												<ul class="list-inline">
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Eloquent</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Blade</span></li>
-												</ul>
-											</div>
-											<div class="col-12 col-sm-2 d-none">
-												<a href="assets/images/b1.png" target="_blank">
-													<img class="img-fluid" src="assets/images/b1.png">
-												</a>
-												<a href="assets/images/b2.png" target="_blank">
-													<img class="img-fluid" src="assets/images/b2.png">
-												</a>
-											</div>
-										</div>
-									</div>
-								</article><!--//resume-timeline-item-->
+				<div class="job">
+					<div class="job-header">
+						<div class="job-title">Full-Stack Developer &nbsp;·&nbsp; <span class="job-company">Fater
+								Tejarat / PSP Express (International Freight Forwarding)</span></div>
+						<div class="job-date">During Favin period &nbsp;|&nbsp; Tehran, Iran</div>
+					</div>
+					<ul class="bullets">
+						<li>Developed large-scale international shipping system used in 6 countries and 15+ branches (4
+							languages) — <b>FuelPHP</b> + <b>Laravel</b> components.</li>
+						<li>Optimized complex <b>MySQL</b> queries supporting 22,000+ users, 70,000+ orders, and
+							500,000+ invoices; modules: accounting, warehousing, customer management, and cryptocurrency
+							payments.</li>
+					</ul>
+				</div>
 
+				<div class="job">
+					<div class="job-header">
+						<div class="job-title">Founder / Full-Stack Developer &nbsp;·&nbsp; <span
+								class="job-company">Akrez eCommerce Platform (akrez.ir)</span></div>
+						<div class="job-date">January 2021 – Present &nbsp;|&nbsp; Tehran, Iran</div>
+					</div>
+					<ul class="bullets">
+						<li>Built multi-tenant <b>eCommerce</b> platform enabling SMEs to launch independent online
+							stores on custom domains (<b>Laravel</b> + full <b>JSON REST API</b>).</li>
+						<li>Features: multi-profile customers, dynamic category filters, AJAX data grids, visit
+							analytics (Chart.js), one-click Telegram publishing via Telegram API.</li>
+					</ul>
+				</div>
 
+				<div class="job">
+					<div class="job-header">
+						<div class="job-title">Full-Stack Developer &nbsp;·&nbsp; <span class="job-company">Setareh
+								Vanak Travel Agency</span></div>
+						<div class="job-date">January 2018 – February 2019 &nbsp;|&nbsp; Tehran, Iran</div>
+					</div>
+					<ul class="bullets">
+						<li>Built modular online flight & insurance booking system with <b>Symfony</b>; integrated
+							international hotel providers (JSON) and Saman Insurance (SOAP/XML).</li>
+					</ul>
+				</div>
 
+				<div class="job">
+					<div class="job-header">
+						<div class="job-title">Backend Developer &nbsp;·&nbsp; <span class="job-company">Travia Online
+								Reservation System</span></div>
+						<div class="job-date">October 2016 – June 2017 &nbsp;|&nbsp; Tehran, Iran</div>
+					</div>
+					<ul class="bullets">
+						<li>Developed core online flight reservation system (<b>Yii2</b>) integrating Amadeus ticketing
+							and other international providers.</li>
+					</ul>
+				</div>
 
-								<article class="resume-timeline-item position-relative mb-1">
-									<div class="resume-timeline-item-header mb-2">
-										<h3 class="resume-position-title mb-1">
-											Akrez Trade Bot
-											<a class="resume-company-name small ms-1" href="https://t.me/akrezTradeBot"
-												target="_blank">
-												@AkrezNewTradeBot
-											</a>
-										</h3>
-									</div>
-									<div class="resume-timeline-item-desc">
-										<div class="row">
-											<div class="col-12 col-sm-12">
-												<ul class="resume-timeline-list">
-													<li>
-														Telegram bot that announces the highest or lowest price of a
-														crypto currency pair within an hour with a chart using Telegram
-														bot and PHP GD
-													</li>
-												</ul>
-												<ul class="list-inline">
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">PHP GD</span></li>
-													<li class="list-inline-item"><span
-															class="badge resume-skill-badge">Telegram bot</span></li>
-												</ul>
-											</div>
-											<div class="col-12 col-sm-2 d-none">
-												<a href="assets/images/t1.png" target="_blank">
-													<img class="img-fluid" src="assets/images/t1.png">
-												</a>
-											</div>
-										</div>
-									</div>
-								</article>
+				<div class="job">
+					<div class="job-header">
+						<div class="job-title">Junior Backend Developer &nbsp;·&nbsp; <span class="job-company">Farzan
+								Clinical Research Organization</span></div>
+						<div class="job-date">February 2016 – September 2016 &nbsp;|&nbsp; Tehran, Iran</div>
+					</div>
+					<ul class="bullets">
+						<li>Built backend interfaces and hub module for <b>Single Sign-On (SSO)</b> using
+							<b>CodeIgniter</b> + <b>MySQL</b>.</li>
+					</ul>
+				</div>
+			</section>
 
-							</div><!--//resume-timeline-->
-						</section><!--//resume-experience-section-->
-					</div><!--//col-8-->
-				</div><!--//row-->
-			</div><!--//resume-body-->
-		</div><!--//resume-wrapper-->
-	</div><!--//container-fluid-->
+			<section>
+				<h2>Selected Projects</h2>
 
-	<script src="public/assets/plugins/jquery/jquery.min.js"></script>
-	<script>
-		$(function () {
-			let contacts = [
-				{
-					'i': 'bi bi-globe',
-					'href': '#',
-					'content': 'Tehran, Iran',
-				},
-				{
-					'i': 'bi-telephone-inbound',
-					'href': 'tel:(+9$8$)$9$1$0$2$1$1$1$5$5$3',
-					'content': '(+9$8$)$9$1$0$2$1$1$1$5$5$3',
-				},
-				{
-					'i': 'bi-browser-edge',
-					'href': 'https://a$l$i$a$k$b$a$r$r$e$z$a$e$i$.$i$r',
-					'content': 'a$l$i$a$k$b$a$r$r$e$z$a$e$i$.$i$r',
-				},
-				{
-					'i': 'bi bi-envelope',
-					'href': 'mailto:a$k$r$e$z$.$l$i$k$e$@$g$m$a$i$l$.$c$o$m',
-					'content': 'a$k$r$e$z$.$l$i$k$e$@$g$m$a$i$l$.$c$o$m',
-				},
-				{
-					'i': 'bi bi-linkedin',
-					'href': 'https://www.linkedin.com/in/a$k$r$e$z',
-					'content': 'a$k$r$e$z',
-				},
-				{
-					'i': 'bi bi-github',
-					'href': 'https://github.com/a$k$r$e$z',
-					'content': 'a$k$r$e$z',
-				},
-			];
-			contacts.forEach(function (contact, contactIndex) {
-				$('#contacts').append(`<li class="list-inline-item mx-3">
-					<i class="resume-contact-icon me-2 bi ` + contact.i + `"></i>
-					<a target="_blank" href="` + contact.href.replace(/\$/g, '') + `">
-						` + contact.content.replace(/\$/g, '') + `
-					</a>
-				</li>`);
-			});
-		});
-	</script>
+				<div class="project">
+					<div class="project-name">CV Manager (cvmanager.ir)</div>
+					<div class="project-desc">
+						Centralized resume / project / position management platform for companies.
+						Stack: <b>Node.js</b>, <b>Express.js</b>, <b>MongoDB</b>, <b>Redis</b>, <b>JWT</b>,
+						<b>Docker</b>, Swagger, Jest.
+					</div>
+				</div>
+
+				<div class="project">
+					<div class="project-name">Boursia – Tehran Stock Exchange Analyzer</div>
+					<div class="project-desc">
+						<b>Laravel</b> app ingesting CSV market data from tsetmc.com via Eloquent; customizable charts
+						with Highcharts / Blade.
+					</div>
+				</div>
+
+				<div class="project">
+					<div class="project-name">Akrez Trade Bot (@AkrezNewTradeBot)</div>
+					<div class="project-desc">
+						Telegram bot announcing highest/lowest crypto-pair prices within the hour, with charts generated
+						via PHP GD.
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<h2>Education</h2>
+				<div class="edu-item">
+					<strong>Bachelor of Software Engineering</strong> &nbsp;·&nbsp; Qom University &nbsp;·&nbsp; 2011 –
+					2015
+				</div>
+			</section>
+
+			<section>
+				<h2>Languages</h2>
+				<div class="lang-item">Persian (Native) &nbsp;|&nbsp; English (Professional working proficiency)</div>
+			</section>
+		</div>
+	</div>
 </body>
+
+</html>
